@@ -1,0 +1,213 @@
+/* Gemaakt door Arian Stolwijk <http://www.aryweb.nl> 11 jan 2009 */
+
+body {
+	margin: 0;
+	padding: 0;
+	background: url(/img/bg.jpg) repeat-x #ffffff;
+	font-size: 0.8em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1,h2,h3 {
+	margin: 0 0 20px 0;
+	color: #234729;
+	font-style: italic;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.8em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+a {
+	color: #234729;
+}
+
+address {
+	font-style: italic;
+}
+
+#container {
+	width: 950px;
+	margin: 0 auto;
+}
+
+#header {
+	background: url(/img/header.jpg) no-repeat;
+	height: 235px;
+}
+
+#content_wrapper {
+	background: url(/img/content_bg.jpg) repeat-y;
+}
+
+#content_wrapper_top {
+	background: url(/img/contenttop_bg.jpg) no-repeat;
+}
+
+#content_wrapper_bottom {
+	background: url(/img/content_bottom_bg.jpg) no-repeat bottom;
+	min-height: 400px;
+	_height: 400px;
+	padding: 0 25px 25px 25px;
+}
+
+#content {
+	width: 100%;
+	overflow: hidden;
+}
+
+#menu {
+	float: left;
+	width: 150px;
+	color: white;
+	padding: 20px 10px 20px 20px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0;
+	margin-bottom: 2px;
+}
+
+#menu ul li ul {
+	margin: 3px 0 0 10px;
+}
+
+#menu a {
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+
+#text {
+	float: left;
+	width: 680px;
+	padding: 20px 20px 50px 20px;
+}
+
+#text img {
+	border: 1px solid #234729;
+	margin: 0 1em;
+}
+
+#text img.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+#text img.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+#text img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer address {
+	color: white;
+	position: relative;
+	top: -110px;
+	left: 30px;
+}
+
+#footer address a {
+	color: white;
+}
+
+.album {
+	width: 120px;
+	background: #DDD;
+	height: 155px;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+	text-align: center;
+}
+
+.album a {
+	color: black;
+	text-decoration: none;
+}
+
+.album  h3 {
+	margin: 0;
+}
+
+.email a {
+	text-decoration: underline;
+}
+
+.email a:hover {
+	text-decoration: none;
+}
+
+.foto {
+	width: 120px;
+	height: 150px;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+	line-height: 15px;
+	text-align: center;
+}
+
+.geenRand {
+	border: 0;
+}
+
+.error {
+	color: red;
+	font-size: 0.8em;
+}
+
+/* Colors */
+red{color:#F00;}
+green{color:#0F0;}
+blue{color:#00F;}
+white{color:#FFF;}
+black{color:#000;}
+purple{color:#F0F;}
+yellow{color:#FF0;}
+aqua{color:#0FF;}
+transparent{color: rgba(0, 0, 0, 0);}
+
+/* Restore the ancient blink tag. */
+@keyframes blink {
+0% {color: inherit;}
+50% {color: rgba(0, 0, 0, 0);}
+100% {color: inherit;}
+}
+@-webkit-keyframes blink {
+0% {color: inherit;}
+50% {color: rgba(0, 0, 0, 0);}
+100% {color: inherit;}
+}
+@-moz-keyframes blink {
+0% {color: inherit;}
+50% {color: rgba(0, 0, 0, 0);}
+100% {color: inherit;}
+}
+blink {
+animation: blink 1s step-start 0s infinite;
+-webkit-animation: blink 1s step-start 0s infinite;
+-moz-animation: blink 1s step-start 0s infinite;
+}
