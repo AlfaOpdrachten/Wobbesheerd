@@ -15,7 +15,7 @@
 	<body>
 		<div class="container">
 			<header role="banner">
-				<img id="logo-main" src="img/header.jpg" width="950" height="235" alt="Logo Thing main logo">
+				<img id="logo-main" src="img/header.jpg" width="950" height="236" alt="Logo Thing main logo">
 				<nav class="navbar navbar-default">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->

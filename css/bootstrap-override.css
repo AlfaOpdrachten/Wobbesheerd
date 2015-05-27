@@ -4,6 +4,8 @@ body {
 
 header[role="banner"] #logo-main {
 	display: block;
+	width: initial;
+	height: initial;
 	max-width: 100%;
 	margin: 0 auto;
 }
