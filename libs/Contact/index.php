@@ -23,7 +23,7 @@
 					<div id="menu">
 						
 	<ul>
-					<li><a href="#">Homepage</a>				</li>
+					<li><a href="">Homepage</a>				</li>
 					<li><a href="#">Faciliteiten</a>				</li>
 					<li><a href="#">Uw visie</a>				</li>
 					<li><em><a href="./bestanden/Wobbesheerd __ Contact.html">Contact</a></em>				</li>
