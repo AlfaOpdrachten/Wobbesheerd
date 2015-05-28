@@ -14,8 +14,6 @@ body {
 
 header[role="banner"] #logo-main {
 	display: block;
-	width: initial;
-	height: initial;
 	max-width: 100%;
 }
 
@@ -24,7 +22,7 @@ header[role="banner"] #logo-main {
 	border-radius: 0;
 	background-color: #244729;
 	color: #FFF;
-	margin-bottom: 0; /* Unnecessary? */
+	margin-bottom: 0;
 }
 
 #navbar-primary.navbar-default .navbar-nav > li > a {
