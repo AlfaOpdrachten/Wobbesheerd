@@ -42,26 +42,26 @@ header[role="banner"] #logo-main {
 	color: inherit;
 }
 
-/*#text img {
+.page-content img {
 	border: 1px solid #234729;
 	margin: 0 1em;
 }
 
-#text img.alignleft {
+.page-content img.alignleft {
 	float: left;
 	margin: 0 1em 1em 0;
 }
 
-#text img.alignright {
+.page-content img.alignright {
 	float: right;
 	margin: 0 0 1em 1em;
 }
 
-#text img.aligncenter {
+.page-content img.aligncenter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}*/
+}
 
 /* Restore the ancient blink tag. */
 @keyframes blink {
