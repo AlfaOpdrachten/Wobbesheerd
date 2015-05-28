@@ -21,12 +21,12 @@
 
 <div id="menu">
 <ul>
-<li><em><a href="/libs/index.php/">Homepage</a></em></li>
-<li><a href="/libs/Faciliteiten/index.php">Faciliteiten</a></li>
-<li><a href="/libs/Uw-visie/">Uw visie</a></li>
-<li><a href="/libs/Contact/">Contact</a></li>
-<li><a href="/libs/Route/">Route</a></li>
-<li><a href="/libs/Omgeving/">Omgeving</a></li>
+<li><em><a href="index.php">Homepage</a></em></li>
+<li><a href="Faciliteiten/index.php">Faciliteiten</a></li>
+<li><a href="uwvisie.php">Uw visie</a></li>
+<li><a href="contact.php">Contact</a></li>
+<li><a href="route.php">Route</a></li>
+<li><a href="omgeving.php">Omgeving</a></li>
 </ul>
 </div>
 

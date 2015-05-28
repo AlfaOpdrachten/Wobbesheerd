@@ -23,12 +23,12 @@
 					<div id="menu">
 						
 	<ul>
-					<li><a href="">Homepage</a>				</li>
-					<li><a href="#">Faciliteiten</a>				</li>
-					<li><a href="#">Uw visie</a>				</li>
+					<li><a href="index.php">Homepage</a>				</li>
+					<li><a href="/faciliteiten/index.php">Faciliteiten</a>				</li>
+					<li><a href="uwvisie.php">Uw visie</a>				</li>
 					<li><em><a href="./bestanden/Wobbesheerd __ Contact.html">Contact</a></em>				</li>
-					<li><a href="#">Route</a>				</li>
-					<li><a href="#">Omgeving</a>				</li>
+					<li><a href="route.php">Route</a>				</li>
+					<li><a href="omgeving.php">Omgeving</a>				</li>
 			
 	</ul>
 	
