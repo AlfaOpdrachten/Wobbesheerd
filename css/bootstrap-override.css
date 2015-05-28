@@ -20,6 +20,7 @@ header[role="banner"] #logo-main {
 	border-radius: 0;
 	background-color: #244729;
 	color: #FFF;
+	margin-bottom: 0; /* Unnecessary? */
 }
 
 #navbar-primary.navbar-default .navbar-nav > li > a {
@@ -40,6 +41,14 @@ header[role="banner"] #logo-main {
 
 .navbar-header > a.navbar-brand:hover {
 	color: inherit;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+.page-content {
+	background-color: #FFF;
 }
 
 .page-content img {
