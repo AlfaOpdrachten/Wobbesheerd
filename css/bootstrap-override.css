@@ -4,6 +4,7 @@ body {
 
 .container {
 	width: 930px;
+	max-width: 100%;
 }
 
 header[role="banner"] #logo-main {
@@ -15,4 +16,17 @@ header[role="banner"] #logo-main {
 }
 
 #navbar-primary.navbar-default {
+	border: 0;
+	border-radius: 0;
+	background-color: #244729;
+	color: #FFF;
+}
+
+#navbar-primary.navbar-default .navbar-nav > li > a {
+	color: inherit;
+}
+
+#navbar-primary.navbar-default .navbar-nav > .active > a {
+	color: inherit;
+	background-color: transparent;
 }
