@@ -27,6 +27,9 @@ header[role="banner"] #logo-main {
 }
 
 #navbar-primary.navbar-default .navbar-nav > .active > a {
-	color: inherit;
 	background-color: transparent;
+}
+
+.navbar-header > .navbar-brand {
+	color: inherit;
 }
