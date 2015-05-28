@@ -97,7 +97,13 @@
 				</form>
 			</div>
 			<footer class="footer">
-				<p>&#169; Company 2014</p>
+				<address>							
+					Hoofdstraat 216<br>
+					9828 PD Oostwold<br>
+					Tel: 050-5515623<br>
+					Mob. 06-15596766 <br>
+					Email: <span class="email"><a href="mailto:info@wobbesheerd.nl">info@wobbesheerd.nl</a></span><br>
+				</address>	
 			</footer>
 		</div>
 		<script src="js/jquery.min.js"></script>
