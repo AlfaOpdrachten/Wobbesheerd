@@ -95,7 +95,7 @@
 				</tr>
 				</table>
 				</form>
-			</div>
+			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>							
 					Hoofdstraat 216<br>
@@ -105,7 +105,7 @@
 					Email: <span class="email"><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></span><br>
 				</address>	
 			</footer>
-		</div>
+		</div><!-- /.container -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 	</body>
