@@ -26,10 +26,18 @@ header[role="banner"] #logo-main {
 	color: inherit;
 }
 
+#navbar-primary.navbar-default .navbar-nav > li > a:hover {
+	color: inherit;
+}
+
 #navbar-primary.navbar-default .navbar-nav > .active > a {
 	background-color: transparent;
 }
 
-.navbar-header > .navbar-brand {
+.navbar-header > a.navbar-brand {
+	color: inherit;
+}
+
+.navbar-header > a.navbar-brand:hover {
 	color: inherit;
 }
