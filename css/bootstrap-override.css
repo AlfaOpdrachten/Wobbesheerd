@@ -2,30 +2,17 @@ body {
 	background: url(../img/bg.jpg) repeat-x #ffffff;
 }
 
+.container {
+	width: 930px;
+}
+
 header[role="banner"] #logo-main {
 	display: block;
 	width: initial;
 	height: initial;
 	max-width: 100%;
-	margin: 0 auto;
+	margin-top: 25px;
 }
 
 #navbar-primary.navbar-default {
-	background: transparent;
-	border: none;
-}
-
-#navbar-primary.navbar-default .navbar-nav {
-	width: 100%;
-	text-align: center;
-}
-
-#navbar-primary.navbar-default .navbar-nav > li {
-	display: inline-block;
-	float: none;
-}
-
-#navbar-primary.navbar-default .navbar-nav > li > a {
-	padding-left: 30px;
-	padding-right: 30px;
 }
