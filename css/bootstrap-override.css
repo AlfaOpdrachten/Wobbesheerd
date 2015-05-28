@@ -3,8 +3,13 @@ body {
 }
 
 .container {
-	width: 930px;
+	width: 900px;
 	max-width: 100%;
+	box-shadow: 0 0 20px #888888;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 header[role="banner"] #logo-main {
@@ -12,7 +17,6 @@ header[role="banner"] #logo-main {
 	width: initial;
 	height: initial;
 	max-width: 100%;
-	margin-top: 25px;
 }
 
 #navbar-primary.navbar-default {
