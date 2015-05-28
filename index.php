@@ -69,32 +69,23 @@
 				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
 				<p>* <span style="font-size: xx-small;">Is niet verplicht&nbsp;</span></p>
-				<form name="FormHandler" method="post" action="./bestanden/Wobbesheerd __ Contact.html">
-				<input type="hidden" name="FormHandler_submit" id="FormHandler_submit" value="1">
+                <form method="post" action="formulierverzenden.php">
+                    <ul>
+                        <li>Uw naam *</li>
+                        <li><input type="text" name="Naam" placeholder="Naam"/></li>
+                        <li>Uw e-mail adres *</li>
+                        <li><input type="text" name="email" /></li>
+                        <li>Uw berichtje *</li>
+                        <li><textarea cols="50" rows="4" name="bericht"></textarea></li>
+                        <li><input type="reset" value="Begin opnieuw" /> <input type="submit" name="versturen" value="Verstuur bericht" /></li>
+                    </ul>
+                    <p>Alle velden gemarkeerd met een * zijn verplicht.</p>
+                </form>
 
-				<table border="0" cellspacing="0" cellpadding="3">
-				<tr> 
-					<td valign="top">Uw naam : &nbsp;</td> 
-					<td valign="top"><input type="text" name="Uwnaam" id="Uwnaam" value="" size="20">   &nbsp;</td> 
-				</tr>
-				<tr> 
-					<td valign="top">Email : &nbsp;</td> 
-					<td valign="top"><input type="text" name="Email" id="Email" value="" size="30">   &nbsp;</td> 
-				</tr>
-				<tr> 
-					<td valign="top">Telefoon *  : &nbsp;</td> 
-					<td valign="top"><input type="text" name="Telefoon" id="Telefoon" value="" size="20">   &nbsp;</td> 
-				</tr>
-				<tr> 
-					<td valign="top">Bericht : &nbsp;</td> 
-					<td valign="top"><textarea name="Bericht" id="Bericht" cols="40" rows="10"></textarea>   &nbsp;</td> 
-				</tr>
-				<tr> 
-					<td valign="top">  &nbsp;</td> 
-					<td valign="top"><input type="submit" value="Verzend" name="button1" id="button1">   &nbsp;</td> 
-				</tr>
-				</table>
-				</form>
+
+
+
+
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>							
