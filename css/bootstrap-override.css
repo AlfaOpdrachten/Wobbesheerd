@@ -51,6 +51,7 @@ header[role="banner"] #logo-main {
 
 .page-header h1{
 	margin-top: 0;
+	padding-top: 10px;
 }
 
 .page-content {
@@ -78,7 +79,6 @@ header[role="banner"] #logo-main {
 	margin-right: auto;
 }
 
-/* Restore the ancient blink tag. */
 @keyframes blink {
 0% {color: inherit;}
 50% {color: rgba(0, 0, 0, 0);}
