@@ -35,35 +35,123 @@
 <div id="content_wrapper_bottom">
 <div id="content">
 
-<div id="menu">
-<ul>
-<li><a href="/id/1-Homepage/">Homepage</a></li>
-<li><a href="/id/8-Faciliteiten/">Faciliteiten</a>
-<ul>
-<li><a href="/id/9-De-boerderij/">De boerderij</a></li>
-<li><a href="/id/22-Overdekte-rijhal/">Overdekte rijhal</a></li>
-<li><a href="/id/24-Stapmolen/">Stapmolen</a></li>
-<li><a href="/id/10-Grote-buitenbak/">Grote buitenbak</a></li>
-<li><a href="/id/16-Kleine-buitenbak/">Kleine buitenbak</a></li>
-<li><em><a href="/id/14-Paddock/">Paddock</a></em></li>
-<li><a href="/id/11-Groepsstal-voor-jonge-paarden/">Groepsstal voor jonge paarden</a></li>
-<li><a href="/id/15-Individuele-stallen-30-boxen/">Individuele stallen (30 boxen)</a></li>
-<li><a href="/id/12-Individuele-stallen-10-boxen/">Individuele stallen (10 boxen)</a></li>
-<li><a href="/id/13-Groepsstal/">Groepsstal</a></li>
-<li><a href="/id/17-Weide/">Weide</a></li>
-<li><a href="/id/18-Trailerstalling/">Trailerstalling</a></li>
-</ul>
-</li>
-<li><a href="/id/19-Uw-visie/">Uw visie</a></li>
-<li><a href="/id/21-Contact/">Contact</a></li>
-<li><a href="/id/20-Route/">Route</a></li>
-<li><a href="/id/23-Omgeving/">Omgeving</a></li>
-</ul>
-</div>
+    <style>
+        article{
+
+            position: fixed;
+            width: 70%;
+            left: 0%;
+            right: 0%;
+            top: 0;
+            bottom: 0;
+            padding: 30px 15%;
+            overflow: auto;
+            z-index: 0;
+            transform-origin: 0 50%;
+
+        }
+
+        article:after {
+            position: absolute;
+            content: "";
+            left: 100%
+        top: 0%;
+            right: 0;
+            bottom: 0;
+        }
+
+        nav {
+
+            position: fixed;
+            left: -15em;
+            top: 0;
+            bottom: 0;
+            background-color: #234729;
+            border-right: 40px solid darkgreen;
+            box-shadow: 5px 0 5px rgba(0,0,0,0.2);
+            z-index: 1;
+            cursor: pointer;
+        }
+
+        nav:after {
+
+            position: absolute;
+            content: "";
+            width: 0;
+            height: 0;
+            right: -70px;
+            top: 50%;
+            border-width: 15px 15px;
+            border-style: solid;
+            border-color: transparent;
+        }
+
+        nav ul {
+
+            width: 15em;
+            list-style-type: none;
+            font-size: 20px;
+        }
+
+        article, article:after, nav, nav * {
+            transition: all 1000ms ease;
+
+        }
+
+        nav:hover {
+
+            left:0;
+
+        }
+
+        nav:hover - article:after {
+                        left: 60%;
+                    }
+
+        nav li{
+
+            color: black;
+            padding: 5%;
+        }
+
+    </style>
+
+    <menu>
+
+        <li><a href="/id/1-Homepage/">Homepage</a></li>
+        <li><a href="/id/8-Faciliteiten/">Faciliteiten</a>
+            <ul>
+                <li><a href="/id/9-De-boerderij/">De boerderij</a></li>
+                <li><a href="/id/22-Overdekte-rijhal/">Overdekte rijhal</a></li>
+                <li><a href="/id/24-Stapmolen/">Stapmolen</a></li>
+                <li><a href="/id/10-Grote-buitenbak/">Grote buitenbak</a></li>
+                <li><a href="/id/16-Kleine-buitenbak/">Kleine buitenbak</a></li>
+                <li><a href="/id/14-Paddock/">Paddock</a></li>
+                <li><a href="/id/11-Groepsstal-voor-jonge-paarden/">Groepsstal voor jonge paarden</a></li>
+                <li><em ><a href="/id/15-Individuele-stallen-30-boxen/">Individuele stallen (30 boxen)</a></em></li>
+                <li><a href="/id/12-Individuele-stallen-10-boxen/">Individuele stallen (10 boxen)</a></li>
+                <li><a href="/id/13-Groepsstal/">Groepsstal</a></li>
+                <li><a href="/id/17-Weide/">Weide</a></li>
+                <li><a href="/id/18-Trailerstalling/">Trailerstalling</a></li>
+            </ul>
+        </li>
+        <li><a href="/id/19-Uw-visie/">Uw visie</a></li>
+        <li><a href="/id/21-Contact/">Contact</a></li>
+        <li><a href="/id/20-Route/">Route</a></li>
+        <li><a href="/id/23-Omgeving/">Omgeving</a></li>
+        </ul>
+
+    </menu>
+
 
 <div id="text">
 <h1>Paddock</h1>
-<p><img class="alignright" src="/upload/DSC_0009.jpg" alt="" width="663" height="440">De paddock geeft ruimte aan de paarden om hun benen even lekker te strekken. Vooral in de winter kunnen ze dan even lekker luchten.</p>
+
+
+
+
+
+    <p><img class="alignright" src="/upload/DSC_0009.jpg" alt="" width="663" height="440">De paddock geeft ruimte aan de paarden om hun benen even lekker te strekken. Vooral in de winter kunnen ze dan even lekker luchten.</p>
 <p><img class="alignright" src="/upload/DSC_0031.jpg" alt="" width="515" height="352"></p>
 <p>&nbsp;</p>
 </div>
