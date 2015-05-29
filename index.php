@@ -78,11 +78,11 @@
                             </TD>
                         </TR>
                         <TR>
-                            <TD>E-Mail adres&nbsp;</TD>
+                            <TD>E-Mail adres</TD>
                             <TD><INPUT TYPE="TEXT" NAME="Mail" SIZE="30" placeholder="voorbeeld@mail.nl"></TD>
                         </TR>
                         <TR>
-                            <TD>Telefoon nummer</TD>
+                            <TD>Telefoon nummer&nbsp;</TD>
                             <TD>
                                 <input type="text" name="nummer" size="30" placeholder="0612345678">
                             </TD>
