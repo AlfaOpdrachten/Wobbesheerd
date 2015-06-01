@@ -70,30 +70,30 @@
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
 				<p>* <span style="font-size: xx-small;">Is niet verplicht&nbsp;</span></p>
                 <form method="post" action="formulierverzenden.php">
-                    <TABLE BORDER="1" CELLSPACING="">
-                        <TR>
-                            <TD>Naam</TD>
-                            <TD>
-                                <INPUT TYPE="TEXT" NAME="naam" SIZE="30" placeholder="Naam">
-                            </TD>
-                        </TR>
-                        <TR>
-                            <TD>E-Mail adres</TD>
-                            <TD><INPUT TYPE="TEXT" NAME="Mail" SIZE="30" placeholder="voorbeeld@mail.nl"></TD>
-                        </TR>
-                        <TR>
-                            <TD>Telefoon nummer&nbsp;</TD>
-                            <TD>
+                    <table border="1" cellspacing="">
+                        <tr>
+                            <td>Naam:</td>
+                            <td>
+                                <input type="text" name="naam" size="30" placeholder="Naam">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>E-mail adres:</td>
+                            <td><input type="text" name="mail" size="30" placeholder="voorbeeld@mail.nl"></td>
+                        </tr>
+                        <tr>
+                            <td>Telefoon Nummer:</td>
+                            <td>
                                 <input type="text" name="nummer" size="30" placeholder="0612345678">
-                            </TD>
-                        </TR>
-                        <TR>
-                            <TD>Uw berichtje</TD>
-                            <TD>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Uw berichtje:</td>
+                            <td>
                                 <textarea cols="50" rows="4" name="bericht" placeholder="Typ hier uw bericht"></textarea>
-                            </TD>
-                        </TR>
-                    </TABLE><br>
+                            </td>
+                        </tr>
+                    </table><br>
                     <input type="submit" name="versturen" value="Verstuur bericht" />
 
                 </form>
