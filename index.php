@@ -15,7 +15,7 @@
 	<body>
 		<div class="container">
 			<header role="banner">
-				<img id="logo-main" src="img/header.jpg" width="900" height="201" title="Paardenstalling Wobbesheerd" alt="Paardenstalling Wobbesheerd Oostwold">
+				<img id="logo-main" src="img/header.jpg" width="900" height="201" title="Paardenstalling Wobbesheerd Oostwold" alt="Paardenstalling Wobbesheerd Oostwold">
 				<nav id="navbar-primary" class="navbar navbar-default">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
@@ -62,13 +62,13 @@
 					<h1>Contact</h1>
 				</div>
 				<p><img class="alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
-				<p>S.R.&nbsp;Wobbes</p>
+				<p>S.R. Wobbes</p>
 				<p>Hoofdstraat 216<br> 9828 PD Oostwold (gem Leek, Gr.)<br> Tel: 050-5515623<br> Mob: 06-15596766</p>
 				<p>email: <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
 				<p>Als u vragen heeft of op zoek bent naar verdere mogelijkheden, neemt u dan contact op met ons. Wij staan u graag te woord.</p>
 				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
-				<p>* <span style="font-size: xx-small;">Is niet verplicht&nbsp;</span></p>
+				<p>* <span style="font-size: xx-small;">Is niet verplicht</span></p>
                 <form method="post" action="formulierverzenden.php">
                     <table class="table">
                         <tr>
