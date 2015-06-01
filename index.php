@@ -70,7 +70,7 @@
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
 				<p>* <span style="font-size: xx-small;">Is niet verplicht&nbsp;</span></p>
                 <form method="post" action="formulierverzenden.php">
-                    <table border="1" cellspacing="">
+                    <table class="table">
                         <tr>
                             <td>Naam:</td>
                             <td>
@@ -88,7 +88,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Uw berichtje:</td>
+                            <td>Uw bericht:</td>
                             <td>
                                 <textarea cols="50" rows="4" name="bericht" placeholder="Typ hier uw bericht"></textarea>
                             </td>
