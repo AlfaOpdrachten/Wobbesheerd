@@ -104,7 +104,7 @@
 
 			</div><!-- /.page-content -->
 			<footer class="footer">
-				<address>							
+				<address>
 					Hoofdstraat 216<br>
 					9828 PD Oostwold<br>
 					Tel: 050-5515623<br>
