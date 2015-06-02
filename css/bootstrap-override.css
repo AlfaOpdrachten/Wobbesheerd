@@ -57,7 +57,11 @@ header[role="banner"] #logo-main {
 }
 
 .page-content img.alignnone {
-    margin: 5px 20px 20px 5px;
+    margin: 5px 20px 20px 0;
+}
+
+.page-content a img.alignnone {
+    margin: 5px 20px 20px 0;
 }
 
 .page-content img.aligncenter {
@@ -65,34 +69,30 @@ header[role="banner"] #logo-main {
     margin: 5px auto 5px auto;
 }
 
-.page-content img.alignright {
-    float:right;
-    margin: 5px 5px 20px 20px;
-}
-
-.page-content img.alignleft {
-    float: left;
-    margin: 5px 20px 20px 5px;
-}
-
-.page-content a img.alignright {
-    float: right;
-    margin: 5px 5px 20px 20px;
-}
-
-.page-content a img.alignnone {
-    margin: 5px 20px 20px 5px;
-}
-
-.page-content a img.alignleft {
-    float: left;
-    margin: 5px 20px 20px 5px;
-}
-
 .page-content a img.aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto
+}
+
+.page-content img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.page-content a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.page-content img.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.page-content a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
 }
 
 @keyframes blink {
