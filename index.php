@@ -50,7 +50,7 @@
 								</li>
 								<li><a href="#">Uw visie</a></li>
 								<li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
-								<li><a href="#">Route</a></li>
+								<li><a href="../Wobbesheerd/libs/route.php">Route</a></li>
 								<li><a href="#">Omgeving</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
