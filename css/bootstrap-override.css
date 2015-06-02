@@ -12,13 +12,12 @@ body {
 	padding-right: 0;
 	background-color: #FFF;
 	border-radius: 25px;
+	overflow: hidden;
 }
 
 header[role="banner"] #logo-main {
 	display: block;
 	max-width: 100%;
-	border-top-left-radius: 25px;
-	border-top-right-radius: 25px;
 }
 
 #navbar-primary.navbar-default {
