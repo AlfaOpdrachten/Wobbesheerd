@@ -95,6 +95,15 @@ header[role="banner"] #logo-main {
     margin-right: auto
 }
 
+.contactformulier td{
+    width: 40px;
+
+}
+
+.contactformulier INPUT{
+    width: 150px;
+}
+
 @keyframes blink {
 0% {color: inherit;}
 50% {color: rgba(0, 0, 0, 0);}
