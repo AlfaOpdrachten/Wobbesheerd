@@ -15,7 +15,7 @@
 	<body>
 		<div class="container">
 			<header role="banner">
-				<img id="logo-main" src="img/header.jpg" width="900" height="201" title="Paardenstalling Wobbesheerd Oostwold" alt="Paardenstalling Wobbesheerd Oostwold">
+				<div id="logo-main"></div>
 				<nav id="navbar-primary" class="navbar navbar-default">
 					<div class="container-fluid">
 						<!-- Brand and toggle get grouped for better mobile display -->
