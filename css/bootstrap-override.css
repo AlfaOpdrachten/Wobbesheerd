@@ -52,6 +52,10 @@ header[role="banner"] #logo-main {
 	margin-top: 0;
 }
 
+.page-content {
+	margin: 20px;
+}
+
 .page-content img {
 	border: 1px solid #234729;
 }
