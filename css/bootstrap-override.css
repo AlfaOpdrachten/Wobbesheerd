@@ -134,6 +134,10 @@ animation: blink 1s step-start 0s infinite;
     background-color: #244729;
 }
 
+.footer address {
+	margin-bottom: 0px;
+}
+
 textarea {
     resize: none;
 }
