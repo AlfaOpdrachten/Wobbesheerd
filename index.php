@@ -80,7 +80,7 @@
                             </tr>
                             <tr>
                                 <td>E-mail adres:</td>
-                                <td><input type="email" name="mail"  placeholder="voorbeeld@mail.nl"></td>
+                                <td><input type="email" name="email"  placeholder="voorbeeld@mail.nl"></td>
                             </tr>
                             <tr>
                                 <td>Telefoon Nummer:</td>
