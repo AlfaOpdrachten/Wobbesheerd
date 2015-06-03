@@ -1,13 +1,12 @@
 body {
 	background: url(../img/bg.jpg) repeat-x #FFF;
+	padding: 25px;
 }
 
 .container {
 	width: 900px;
 	max-width: 100%;
 	box-shadow: 0 0 20px #888;
-	margin-top: 25px;
-	margin-bottom: 25px;
 	padding-left: 0;
 	padding-right: 0;
 	background-color: #FFF;
@@ -129,4 +128,12 @@ blink {
 animation: blink 1s step-start 0s infinite;
 -webkit-animation: blink 1s step-start 0s infinite;
 -moz-animation: blink 1s step-start 0s infinite;
+}
+
+.footer {
+    background-color: #244729;
+}
+
+textarea {
+    resize: none;
 }
