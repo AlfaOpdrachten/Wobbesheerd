@@ -132,12 +132,12 @@ animation: blink 1s step-start 0s infinite;
 
 .footer {
     background-color: #244729;
+    color: #fff;
+	padding: 20px;
 }
 
 .footer address {
-	margin-bottom: 0px;
-    margin-left: 20px;
-    color: #fff;
+	margin-bottom: 0;
 }
 
 textarea {
