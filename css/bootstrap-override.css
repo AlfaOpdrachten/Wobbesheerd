@@ -1,11 +1,11 @@
 body {
-	background: url(../img/bg.jpg) repeat-x #ffffff;
+	background: url(../img/bg.jpg) repeat-x #FFF;
 }
 
 .container {
 	width: 900px;
 	max-width: 100%;
-	box-shadow: 0 0 20px #888888;
+	box-shadow: 0 0 20px #888;
 	margin-top: 25px;
 	margin-bottom: 25px;
 	padding-left: 0;
@@ -17,6 +17,8 @@ body {
 
 header[role="banner"] #logo-main {
 	display: block;
+	width: initial;
+	height: initial;
 	max-width: 100%;
 }
 
