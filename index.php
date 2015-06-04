@@ -83,7 +83,7 @@
                                 <td><input type="email" name="email"  placeholder="voorbeeld@mail.nl"></td>
                             </tr>
                             <tr>
-                                <td>Telefoon Nummer:</td>
+                                <td>Telefoon Nummer*:</td>
                                 <td>
                                     <input type="tel" name="nummer"  placeholder="0612345678">
                                 </td>
