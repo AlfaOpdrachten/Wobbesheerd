@@ -42,17 +42,17 @@ if(isset($_POST['versturen'])) // Als het formulier verzonden is door op de verz
         $fout = true;
     }
 
-//    if($fout == false) // Als er niks fout is (alles is dus netjes ingevuld)
-//    {
-//        $headers .= 'From: ' . $naam .  '<' . $email . '>'; // Een afzender instellen zodat je kan reageren.
-//
-//        if(mail($naar, $onderwerp, $body))
-//        {
-//            print '<p>Het bericht is succesvol verzonden!</p>';
-//        }
-//        else
-//        {
-//            print '<p>Helaas, er is wat fout gegaan tijdens het verzenden van het formulier.</p>';
-//        }
-//    }
+    if($fout == false) // Als er niks fout is (alles is dus netjes ingevuld)
+    {
+        $headers .= 'From: ' . $naam .  '<' . $email . '>'; // Een afzender instellen zodat je kan reageren.
+
+        if(mail($naar, $onderwerp, $body))
+        {
+            print '<p>Het bericht is succesvol verzonden!</p>';
+        }
+        else
+        {
+            print '<p>Helaas, er is wat fout gegaan tijdens het verzenden van het formulier.</p>';
+        }
+    }
 }
