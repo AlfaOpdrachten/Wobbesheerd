@@ -68,36 +68,43 @@
 				<p>Als u vragen heeft of op zoek bent naar verdere mogelijkheden, neemt u dan contact op met ons. Wij staan u graag te woord.</p>
 				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
-				<p class="text-danger">* <span class="small">Is niet verplicht</span></p>
-                <form method="post" action="formulierverzenden.php" class="contactformulier">
-
-                        <table class="table">
-                            <tr>
-                                <td>Naam:</td>
-                                <td>
-                                    <input type="text" name="naam"  placeholder="Naam">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>E-mail adres:</td>
-                                <td><input type="email" name="email"  placeholder="voorbeeld@mail.nl"></td>
-                            </tr>
-                            <tr>
-                                <td>Telefoon Nummer*:</td>
-                                <td>
-                                    <input type="tel" name="nummer"  placeholder="0612345678">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Uw bericht:</td>
-                                <td>
-                                    <textarea cols="50" rows="4" name="bericht" placeholder="Typ hier uw bericht"></textarea>
-                                </td>
-                            </tr>
-                        </table><br>
-                        <input type="submit" name="versturen" value="Verstuur bericht" />
-
-                    </form>
+				<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
+				
+				
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="naam">Naam:</label>
+						<div class="col-sm-10">
+							<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam">
+							<span class="text-danger">*</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="email">E-mail adres:</label>
+						<div class="col-sm-10">          
+							<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl">
+							<span class="text-danger">*</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>
+						<div class="col-sm-10">          
+							<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
+						<div class="col-sm-10">
+							<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
+							<span class="text-danger">*</span>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<button type="submit" class="btn btn-default">Verstuur bericht</button>
+						</div>
+					</div>
+				</form>
 
 
 

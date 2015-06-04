@@ -16,8 +16,8 @@ body {
 
 header[role="banner"] #logo-main {
 	display: block;
-	width: initial;
-	height: initial;
+	width: auto;
+	height: auto;
 	max-width: 100%;
 }
 
@@ -100,13 +100,18 @@ header[role="banner"] #logo-main {
 	margin: 5px 0 20px 20px;
 }
 
-.contactformulier td{
-	width: 40px;
-
+form[role="form"] * {
+	vertical-align: text-top;
 }
 
-.contactformulier input {
-	width: 200px;
+label {
+	white-space: nowrap;
+}
+
+.form-control {
+	display: initial;
+	width: 400px;
+	max-width: 95%;
 }
 
 @keyframes blink {
