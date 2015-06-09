@@ -71,7 +71,7 @@
 				<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
 				
 				
-				<form class="form-horizontal" role="form">
+				<form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="naam">Naam:</label>
 						<div class="col-sm-10">
