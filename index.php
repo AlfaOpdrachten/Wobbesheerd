@@ -26,17 +26,17 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<a class="navbar-brand" href="#">Wobbesheerd</a>
+							<a class="navbar-brand" href="index.php">Wobbesheerd</a>
 						</div>
 
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li><a href="#">Faciliteiten</a></li>
-								<li><a href="#">Uw visie</a></li>
-								<li class="active"><a href="#">Contact <span class="sr-only">(huidige)</span></a></li>
-								<li><a href="../Wobbesheerd/libs/route.php">Route</a></li>
-								<li><a href="#">Omgeving</a></li>
+								<li><a href="faciliteiten.php">Faciliteiten</a></li>
+								<li><a href="uwvisie.php">Uw visie</a></li>
+								<li class="active"><a href="contact.php">Contact <span class="sr-only">(huidige)</span></a></li>
+								<li><a href="route.php">Route</a></li>
+								<li><a href="omgeving.php">Omgeving</a></li>
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div><!-- /.container-fluid -->
