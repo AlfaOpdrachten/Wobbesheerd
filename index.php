@@ -34,7 +34,7 @@
 							<ul class="nav navbar-nav">
 								<li><a href="faciliteiten.php">Faciliteiten</a></li>
 								<li><a href="uwvisie.php">Uw visie</a></li>
-								<li class="active"><a href="contact.php">Contact <span class="sr-only">(huidige)</span></a></li>
+								<li><a href="contact.php">Contact</a></li>
 								<li><a href="route.php">Route</a></li>
 								<li><a href="omgeving.php">Omgeving</a></li>
 							</ul>
@@ -44,59 +44,26 @@
 			</header><!-- header role="banner" -->
 			<div class="page-content">
 				<div class="page-header">
-					<h1>Contact</h1>
+					<h1>Homepage</h1>
 				</div>
-				<p><img class="alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
-				<p>S.R. Wobbes</p>
-				<p>Hoofdstraat 216<br> 9828 PD Oostwold (gem Leek, Gr.)<br> Tel: 050-5515623<br> Mob: 06-15596766</p>
-				<p>email: <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
-				<p>Als u vragen heeft of op zoek bent naar verdere mogelijkheden, neemt u dan contact op met ons. Wij staan u graag te woord.</p>
-				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
-				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
-				<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
-				
-				
-				<form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="naam">Naam:</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam">
-							<span class="text-danger">*</span>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="email">E-mail adres:</label>
-						<div class="col-sm-10">          
-							<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl">
-							<span class="text-danger">*</span>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>
-						<div class="col-sm-10">          
-							<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
-						<div class="col-sm-10">
-							<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht."></textarea>
-							<span class="text-danger">*</span>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<button type="submit" class="btn btn-default">Verstuur bericht</button>
-						</div>
-					</div>
-				</form>
-
-
-
-
-
-
-
+				<p>Wij heten u van harte welkom op <strong>paardenstalling "Wobbesheerd"</strong>.</p>
+				<p>Als u op zoek bent naar rust, ruimte en professionele verzorging / stalling voor uw pony/paard(en), dan zijn wij de plek voor u.</p>
+				<p>Op 10 minuten gelegen van Groningen vindt u:</p>
+				<p><img class="alignright" src="upload/DSC_0046.jpg" width="300" height="199"></p>
+				<ul>
+				<li>Overdekte rijhal 20 bij 40 meter.</li>
+				<li>2 grote altijd beschikbare rijbakken.</li>
+				<li>Stapmolen.</li>
+				<li>80&nbsp;hectare land voor uw paard.</li>
+				<li>3 grote stallen waar onder ook groeps huisvesting van veulens tot driejarigen.</li>
+				<li>Spoelplaats binnen en buiten.</li>
+				<li>Parkeerplaats voor uw trailer.</li>
+				<li>Omheinde velden met watervoorzieningen.</li>
+				<li>Video bewaking + Birth Alarm voor drachtige merries.</li>
+				<li>24 uur per dag aanwezigheid en verzorging.</li>
+				<li>Ruimte voor stalling van uw eigen paarden benodigdheden. (kasten kunnen voor u geregeld worden als u nog niet over uw eigen beschikt)</li>
+				<li>Bossen op korte afstand voor de ultieme rij ervaring.</li>
+				</ul>
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
