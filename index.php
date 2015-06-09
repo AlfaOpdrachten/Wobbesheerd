@@ -32,22 +32,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Faciliteiten <span class="caret"></span></a>
-									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">De boerderij</a></li>
-										<li><a href="#">Overdekte rijhal</a></li>
-										<li><a href="#">De grote buitenbak</a></li>
-										<li><a href="#">Kleine buitenbak</a></li>
-										<li><a href="#">Paddock</a></li>
-										<li><a href="#">Groepsstal voor jonge paarden</a></li>
-										<li><a href="#">Individuele stallen met 30 boxen</a></li>
-										<li><a href="#">Individuele stallen 10 stuks</a></li>
-										<li><a href="#">Groepsstal 10-12 paarden</a></li>
-										<li><a href="#">Weide</a></li>
-										<li><a href="#">Trailer en auto standplaats</a></li>
-									</ul>
-								</li>
+								<li><a href="#">Faciliteiten</a></li>
 								<li><a href="#">Uw visie</a></li>
 								<li class="active"><a href="#">Contact <span class="sr-only">(current)</span></a></li>
 								<li><a href="../Wobbesheerd/libs/route.php">Route</a></li>
