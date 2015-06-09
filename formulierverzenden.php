@@ -6,7 +6,6 @@
  * Time: 11:03
  */
 
-
 $naar = "reinderh@gmail.com"; // Waar moet het naartoe?
 $onderwerp = "Contactformulier paardensite"; // Het onderwerp van het bericht
 $body = "Dit is een automatisch bericht, graag niet op reageren./n/n"; //$bericht
@@ -56,3 +55,5 @@ if(isset($_POST['versturen'])) // Als het formulier verzonden is door op de verz
         }
     }
 }
+
+print_r($_POST);
