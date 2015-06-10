@@ -105,6 +105,11 @@ header[role="banner"] #logo-main {
 	display: initial;
 }
 
+.embed-responsive-item {
+	display: block;
+	max-width: 100%;
+}
+
 form[role="form"] * {
 	vertical-align: text-top;
 }
