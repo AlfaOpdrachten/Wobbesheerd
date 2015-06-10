@@ -42,7 +42,7 @@
 					</div><!-- /.container-fluid -->
 				</nav>
 			</header><!-- header role="banner" -->
-			<div id="page-content" class="page-content">
+			<div class="page-content">
 				<div class="page-header">
 					<h1>Contact</h1>
 				</div>
@@ -65,20 +65,18 @@
 					het viaduct ziet u aan de linker kant Wobbesheerd.</li>
 					</ul>
 					<p>&nbsp;</p>
-					<p><script>
-						window.onload = function(){
-							var iframe = document.createElement("iframe");
-							iframe.setAttribute("src", "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347");
-							iframe.width = "600";
-							iframe.height = "450";
-							iframe.frameBorder = "0";
-							iframe.style.border = "0";
-							document.getElementById("page-content").appendChild(iframe);
-						};
-					</script>
-					<noscript>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"></iframe>
-					</noscript></p>
+					<p>
+						<div id="maps">
+							<noscript>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"></iframe>
+							</noscript>
+						</div>
+						<script>
+							window.onload = function(){
+								document.getElementById("maps").innerHTML = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"></iframe>';
+							};
+						</script>
+					</p>
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
