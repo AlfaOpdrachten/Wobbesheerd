@@ -66,6 +66,7 @@
 					het viaduct ziet u aan de linker kant Wobbesheerd.</li>
 					</ul>
 					<p>&nbsp;</p>
+					<!-- <a href="http://maps.google.nl/maps?f=q&amp;hl=nl&amp;geocode=&amp;q=Hoofdstraat+216++9828+PD+Oostwold&amp;sll=53.199683,6.435027&amp;sspn=0.018664,0.038409&amp;ie=UTF8&amp;ll=53.197909,6.4464&amp;spn=0.074658,0.218868&amp;z=13" target="_blank"><img class="img-responsive aligncenter" src="http://www.wobbesheerd.nl/uploads/afbeeldingen/kaart(1).jpg" width="640" height="300" alt="Kaart naar Paardenstalling Wobbesheerd"></a> -->
 					<div id="maps">
 						<noscript>
 							<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"></iframe>
