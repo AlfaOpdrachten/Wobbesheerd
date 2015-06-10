@@ -101,6 +101,10 @@ header[role="banner"] #logo-main {
 	margin: 5px 0 20px 20px;
 }
 
+.img-responsive {
+	display: initial;
+}
+
 form[role="form"] * {
 	vertical-align: text-top;
 }
