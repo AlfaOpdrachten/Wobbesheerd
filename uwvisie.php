@@ -44,7 +44,7 @@
 			</header><!-- header role="banner" -->
 			<div class="page-content">
 				<div class="page-header">
-					<h1>Contact</h1>
+					<h1>Uw visie</h1>
 				</div>
 				<p><img class="alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
 				<p>S.R. Wobbes</p>
