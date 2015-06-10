@@ -46,7 +46,7 @@
 				<div class="page-header">
 					<h1>Contact</h1>
 				</div>
-				<p><img class="alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
+				<p><img class="img-responsive alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
 				<p>S.R. Wobbes</p>
 				<p>Hoofdstraat 216<br> 9828 PD Oostwold (gem Leek, Gr.)<br> Tel: 050-5515623<br> Mob: 06-15596766</p>
 				<p>email: <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>

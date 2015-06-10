@@ -49,7 +49,7 @@
 				<p>Wij heten u van harte welkom op <strong>paardenstalling "Wobbesheerd"</strong>.</p>
 				<p>Als u op zoek bent naar rust, ruimte en professionele verzorging / stalling voor uw pony/paard(en), dan zijn wij de plek voor u.</p>
 				<p>Op 10 minuten gelegen van Groningen vindt u:</p>
-				<p><img class="alignright" src="upload/DSC_0046.jpg" width="300" height="199"></p>
+				<p><img class="img-responsive alignright" src="upload/DSC_0046-small.jpg" width="300" height="199"></p>
 				<ul>
 				<li>Overdekte rijhal 20 bij 40 meter.</li>
 				<li>2 grote altijd beschikbare rijbakken.</li>
