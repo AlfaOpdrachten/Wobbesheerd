@@ -10,7 +10,8 @@ $naar = "reinderh@gmail.com"; // Waar moet het naartoe?
 $onderwerp = "Contactformulier paardensite"; // Het onderwerp van het bericht
 $body = "Dit is een automatisch bericht, graag niet op reageren./n/n"; //$bericht
 
-
+$headers = "MIME-version: 1.0\r\n";
+$headers .= "content-type: text/html;charset=utf-8\r\n";
 
 
 
