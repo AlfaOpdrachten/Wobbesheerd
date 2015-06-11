@@ -62,52 +62,61 @@ header[role="banner"] #logo-main {
 	border: 1px solid #234729;
 }
 
-.page-content img.alignnone {
+.page-content iframe img {
+	border: 0;
+}
+
+.page-content .alignnone {
 	margin: 5px 20px 20px 0;
 }
 
-.page-content a img.alignnone {
+.page-content a .alignnone {
 	margin: 5px 20px 20px 0;
 }
 
-.page-content img.aligncenter {
+.page-content .aligncenter {
 	display: block;
 	margin: 5px auto 5px auto;
 }
 
-.page-content a img.aligncenter {
+.page-content a .aligncenter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto
 }
 
-.page-content img.alignleft {
+.page-content .alignleft {
 	float: left;
 	margin: 5px 20px 20px 0;
 }
 
-.page-content a img.alignleft {
+.page-content a .alignleft {
 	float: left;
 	margin: 5px 20px 20px 0;
 }
 
-.page-content img.alignright {
+.page-content .alignright {
 	float:right;
 	margin: 5px 0 20px 20px;
 }
 
-.page-content a img.alignright {
+.page-content a .alignright {
 	float: right;
 	margin: 5px 0 20px 20px;
 }
 
 .img-responsive {
 	display: initial;
+	max-width: 100%;
+	height: auto;
 }
 
 .embed-responsive-item {
-	display: block;
+	width: 600px;
+	height: 450px;
 	max-width: 100%;
+	min-height: 450px;
+	height: auto;
 }
 
 form[role="form"] * {
