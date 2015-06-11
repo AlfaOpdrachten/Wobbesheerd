@@ -18,6 +18,7 @@ $headers .= "content-type: text/html;charset=utf-8\r\n";
     $naam = trim($_POST['naam']); // Alle overbodige spaties uit het voornaam veld verwijderen
     $email = trim($_POST['email']); // Alle overbodige spaties uit het email veld verwijderen
     $bericht = trim($_POST['bericht']); // Alle overbodige spaties uit het bericht veld verwijderen
+    $nummer = trim($_POST['nummer']); //Alle overbodige spaties uit het nummer veld verwijderen
     $fout = false; // Om te kijken straks of er wat fout is
 
     if(empty($naam)) // Als het voornaam veld niet is ingevuld
@@ -49,7 +50,7 @@ $headers .= "content-type: text/html;charset=utf-8\r\n";
         $headers .= 'From: ' . $naam .  '<' . $email . '>'; // Een afzender instellen zodat je kan reageren.
 
         echo TRUE;
-        if(mail($naar, $onderwerp, $body))
+        if(mail($naar, $onderwerp, $body, $naam, $bericht, $nummer))
         {
 
             print '<p>Het bericht is succesvol verzonden!</p>';
