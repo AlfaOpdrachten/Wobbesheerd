@@ -3,6 +3,12 @@ body {
 	padding: 25px;
 }
 
+@media (max-width: 950px) {
+	body {
+		padding: 0;
+	}
+}
+
 .container {
 	width: 900px;
 	max-width: 100%;
@@ -15,11 +21,16 @@ body {
 	overflow: hidden;
 }
 
+@media (max-width: 950px) {
+	.container {
+		border-radius: 0;
+	}
+}
+
 header[role="banner"] #logo-main {
 	display: block;
-	width: auto;
-	height: auto;
 	max-width: 100%;
+	height: auto;
 }
 
 #navbar-primary.navbar-default {
