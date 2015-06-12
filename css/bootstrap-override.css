@@ -3,7 +3,7 @@ body {
 	padding: 25px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
 	body {
 		padding: 0;
 	}
@@ -21,7 +21,7 @@ body {
 	overflow: hidden;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
 	.container {
 		border-radius: 0;
 	}
