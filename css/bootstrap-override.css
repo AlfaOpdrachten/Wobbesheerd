@@ -117,7 +117,7 @@ header[role="banner"] #logo-main {
 }
 
 .img-responsive {
-	display: initial;
+	display: inline-block;
 	max-width: 100%;
 	height: auto;
 }
@@ -140,7 +140,7 @@ label {
 }
 
 .form-control {
-	display: initial;
+	display: inline-block;
 	width: 400px;
 	max-width: 95%;
 }
