@@ -77,45 +77,6 @@ header[role="banner"] #logo-main {
 	border: 0;
 }
 
-.page-content .alignnone {
-	margin: 5px 20px 20px 0;
-}
-
-.page-content a .alignnone {
-	margin: 5px 20px 20px 0;
-}
-
-.page-content .aligncenter {
-	display: block;
-	margin: 5px auto 5px auto;
-}
-
-.page-content a .aligncenter {
-	display: block;
-	margin-left: auto;
-	margin-right: auto
-}
-
-.page-content .alignleft {
-	float: left;
-	margin: 5px 20px 20px 0;
-}
-
-.page-content a .alignleft {
-	float: left;
-	margin: 5px 20px 20px 0;
-}
-
-.page-content .alignright {
-	float:right;
-	margin: 5px 0 20px 20px;
-}
-
-.page-content a .alignright {
-	float: right;
-	margin: 5px 0 20px 20px;
-}
-
 .img-responsive {
 	display: inline-block;
 	max-width: 100%;
@@ -123,10 +84,60 @@ header[role="banner"] #logo-main {
 }
 
 @media (max-width: 900px) {
-	.img-responsive {
+	.img-responsive.alignnone, .img-responsive.alignleft, .img-responsive.alignright {
 		display: block !important;
 		float: none !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
 	}
+}
+
+@media (max-width: 900px) {
+	.img-responsive.img-aligncenter {
+		display: block !important;
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+a .alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+	display: block;
+	margin: 5px auto 5px auto;
+}
+
+a .aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+a .alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+
+.alignright {
+	float:right;
+	margin: 5px 0 20px 20px;
+}
+
+a .alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
 }
 
 .embed-responsive-item {
@@ -152,6 +163,20 @@ label {
 	max-width: 95%;
 }
 
+textarea {
+    resize: none;
+}
+
+.footer {
+    background-color: #244729;
+    color: #fff;
+	padding: 20px;
+}
+
+.footer address {
+	margin-bottom: 0;
+}
+
 @keyframes blink {
 0% {color: inherit;}
 50% {color: rgba(0, 0, 0, 0);}
@@ -171,18 +196,4 @@ blink {
 animation: blink 1s step-start 0s infinite;
 -webkit-animation: blink 1s step-start 0s infinite;
 -moz-animation: blink 1s step-start 0s infinite;
-}
-
-.footer {
-    background-color: #244729;
-    color: #fff;
-	padding: 20px;
-}
-
-.footer address {
-	margin-bottom: 0;
-}
-
-textarea {
-    resize: none;
 }
