@@ -122,6 +122,13 @@ header[role="banner"] #logo-main {
 	height: auto;
 }
 
+@media (max-width: 900px) {
+	.img-responsive {
+		display: block !important;
+		float: none !important;
+	}
+}
+
 .embed-responsive-item {
 	width: 600px;
 	height: 450px;
