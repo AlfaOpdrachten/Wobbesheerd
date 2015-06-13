@@ -45,7 +45,7 @@
 			</header><!-- header role="banner" -->
 			<div class="page-content">
 				<div class="page-header">
-					<h1>Contact</h1>
+					<h1>Route</h1>
 				</div>
 					<ul>
 					<li><a href="http://maps.google.nl/maps?f=d&source=s_d&saddr=53.182726,6.37325&daddr=Pasop+to:Hoofdstraat&hl=nl&geocode=%3BFfaNKwMd9lVhAA%3BFda8KwMdkwpiAA&mra=dme&mrcr=0&mrsp=0&sz=16&via=1&sll=53.184513,6.377563&sspn=0.010312,0.019312&ie=UTF8&ll=53.191636,6.402454&spn=0.082485,0.154495&z=13" target="_blank">
