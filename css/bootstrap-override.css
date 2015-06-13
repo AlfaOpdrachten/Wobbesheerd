@@ -144,7 +144,6 @@ a .alignright {
 	width: 600px;
 	height: 450px;
 	max-width: 100%;
-	min-height: 450px;
 }
 
 form[role="form"] * {
