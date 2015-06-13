@@ -44,7 +44,6 @@
 				</nav>
 			</header><!-- header role="banner" -->
 			<div class="page-content">
-
 				<div class="page-header">
 					<h1>Uw visie</h1>
 				</div>
@@ -56,7 +55,6 @@
                     <p>Voor de opfok van uw paard hanteren wij een aparte prijs voor zowel de zomer- als de wintermaanden. De prijzen zijn exclusief hoefsmid- dierenarts- en entkosten.</p>
                     <p>Voor meer informatie inzake de prijzen van het opfokken van uw jonge paard/pony of het stallen van uw paard/pony kunt u met ons contact opnemen.</p>
                 </div>
-
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>

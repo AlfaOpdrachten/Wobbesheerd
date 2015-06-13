@@ -47,35 +47,35 @@
 				<div class="page-header">
 					<h1>Route</h1>
 				</div>
-					<ul>
-					<li><a href="http://maps.google.nl/maps?f=d&source=s_d&saddr=53.182726,6.37325&daddr=Pasop+to:Hoofdstraat&hl=nl&geocode=%3BFfaNKwMd9lVhAA%3BFda8KwMdkwpiAA&mra=dme&mrcr=0&mrsp=0&sz=16&via=1&sll=53.184513,6.377563&sspn=0.010312,0.019312&ie=UTF8&ll=53.191636,6.402454&spn=0.082485,0.154495&z=13" target="_blank">
-					<strong>Vanuit Joure/Leek/Drachten</strong></a>; 
-					afslag Leek (A7), de rotonde 3/4 nemen. 
-					Vervolgens de volgende rotonde 1/4 nemen zodat u parallel langs de snelweg komt te rijden. 
-					Aan het einde van de parallelweg moet u links afslaan, 
-					vervolgens ongeveer 50 meter en dan is Wobbesheerd aan uw rechterhand.</li>
-					
-					<li><a href="http://maps.google.nl/maps?f=d&source=s_d&saddr=53.199902,6.51279&daddr=Hoofdstraat+216,+9828+Leek&hl=nl&geocode=&mra=dme&mrcr=0&mrsp=0&sz=16&sll=53.20129,6.51118&sspn=0.010308,0.019312&ie=UTF8&ll=53.205518,6.473522&spn=0.075158,0.154495&z=13" target="_blank">
-					<strong>Vanuit Groningen/Assen/Winschoten</strong></a>; 
-					neem de A7 richting Drachten, ongeveer 3 minuten buiten 
-					Groningen moet u de afslag Hoogkerk nemen. 
-					Als u beneden bent aangekomen moet u bij de rontonde rechtdoor,
-					zodat u weer langs de snelweg komt te rijden. Nadat u met de bocht mee bent gegaan, 
-					en bij een klapbrug over het water bent gegaan moet u direct links afslaan. 
-					Ga dan in de Poffert over de brug links. Rij door het dorp Oostwold en voor 
-					het viaduct ziet u aan de linker kant Wobbesheerd.</li>
-					</ul>
-					<p>&nbsp;</p>
-					<div id="maps">
-						<noscript>
-							<iframe class="embed-responsive-item alignnone" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"><p><a href="https://www.google.com/maps?ll=53.197667,6.425558&z=12&t=m&hl=nl-NL&gl=NL&mapclient=embed&q=Hoofdstraat+216+9828+PD+Oostwold+Gem+Leek" target="_blank"><img class="img-responsive alignnone" src="upload/maps.jpg" width="600" height="450" alt="Kaart naar Paardenstalling Wobbesheerd"></a></p></iframe>
-						</noscript>
-					</div>
-					<script>
-						window.onload = function(){
-							document.getElementById("maps").innerHTML = '<iframe class="embed-responsive-item alignnone" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"><p><a href="https://www.google.com/maps?ll=53.197667,6.425558&z=12&t=m&hl=nl-NL&gl=NL&mapclient=embed&q=Hoofdstraat+216+9828+PD+Oostwold+Gem+Leek" target="_blank"><img class="img-responsive alignnone" src="upload/maps.jpg" width="600" height="450" alt="Kaart naar Paardenstalling Wobbesheerd"></a></p></iframe>';
-						};
-					</script>
+				<ul>
+				<li><a href="http://maps.google.nl/maps?f=d&source=s_d&saddr=53.182726,6.37325&daddr=Pasop+to:Hoofdstraat&hl=nl&geocode=%3BFfaNKwMd9lVhAA%3BFda8KwMdkwpiAA&mra=dme&mrcr=0&mrsp=0&sz=16&via=1&sll=53.184513,6.377563&sspn=0.010312,0.019312&ie=UTF8&ll=53.191636,6.402454&spn=0.082485,0.154495&z=13" target="_blank">
+				<strong>Vanuit Joure/Leek/Drachten</strong></a>; 
+				afslag Leek (A7), de rotonde 3/4 nemen. 
+				Vervolgens de volgende rotonde 1/4 nemen zodat u parallel langs de snelweg komt te rijden. 
+				Aan het einde van de parallelweg moet u links afslaan, 
+				vervolgens ongeveer 50 meter en dan is Wobbesheerd aan uw rechterhand.</li>
+				
+				<li><a href="http://maps.google.nl/maps?f=d&source=s_d&saddr=53.199902,6.51279&daddr=Hoofdstraat+216,+9828+Leek&hl=nl&geocode=&mra=dme&mrcr=0&mrsp=0&sz=16&sll=53.20129,6.51118&sspn=0.010308,0.019312&ie=UTF8&ll=53.205518,6.473522&spn=0.075158,0.154495&z=13" target="_blank">
+				<strong>Vanuit Groningen/Assen/Winschoten</strong></a>; 
+				neem de A7 richting Drachten, ongeveer 3 minuten buiten 
+				Groningen moet u de afslag Hoogkerk nemen. 
+				Als u beneden bent aangekomen moet u bij de rontonde rechtdoor,
+				zodat u weer langs de snelweg komt te rijden. Nadat u met de bocht mee bent gegaan, 
+				en bij een klapbrug over het water bent gegaan moet u direct links afslaan. 
+				Ga dan in de Poffert over de brug links. Rij door het dorp Oostwold en voor 
+				het viaduct ziet u aan de linker kant Wobbesheerd.</li>
+				</ul>
+				<p>&nbsp;</p>
+				<div id="maps">
+					<noscript>
+						<iframe class="embed-responsive-item alignnone" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"><p><a href="https://www.google.com/maps?ll=53.197667,6.425558&z=12&t=m&hl=nl-NL&gl=NL&mapclient=embed&q=Hoofdstraat+216+9828+PD+Oostwold+Gem+Leek" target="_blank"><img class="img-responsive alignnone" src="upload/maps.jpg" width="600" height="450" alt="Kaart naar Paardenstalling Wobbesheerd"></a></p></iframe>
+					</noscript>
+				</div>
+				<script>
+					window.onload = function(){
+						document.getElementById("maps").innerHTML = '<iframe class="embed-responsive-item alignnone" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d38241.79070055959!2d6.4464!3d53.19790900000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c834c1be77e199%3A0xb214376f3c59e894!2sHoofdstraat+216%2C+9828+PD+Oostwold+Gem+Leek!5e0!3m2!1snl!2snl!4v1433248466347" width="600" height="450" frameborder="0" style="border:0;"><p><a href="https://www.google.com/maps?ll=53.197667,6.425558&z=12&t=m&hl=nl-NL&gl=NL&mapclient=embed&q=Hoofdstraat+216+9828+PD+Oostwold+Gem+Leek" target="_blank"><img class="img-responsive alignnone" src="upload/maps.jpg" width="600" height="450" alt="Kaart naar Paardenstalling Wobbesheerd"></a></p></iframe>';
+					};
+				</script>
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>

@@ -55,8 +55,6 @@
 				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
 				<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
-				
-				
 				<form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
 					<div class="form-group">
 						<label class="control-label col-sm-2" for="naam">Naam:</label>
@@ -91,13 +89,6 @@
 						</div>
 					</div>
 				</form>
-
-
-
-
-
-
-
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
