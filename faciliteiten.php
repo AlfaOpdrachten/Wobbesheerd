@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap 101 Template</title>
+		<title>Faciliteiten :: Wobbesheerd</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-override.css" rel="stylesheet">
 		<!--[if lt IE 9]>
@@ -34,7 +34,7 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="faciliteiten.php">Faciliteiten <span class="sr-only">(huidige)</span></a></li>
-								<li><a href="uwvisie.php">Uw visie</a></li>
+								<li><a href="uwvisie.php">Uw Visie</a></li>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="route.php">Route</a></li>
 								<li><a href="omgeving.php">Omgeving</a></li>

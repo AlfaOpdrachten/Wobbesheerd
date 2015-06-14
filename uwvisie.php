@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bootstrap 101 Template</title>
+		<title>Uw Visie :: Wobbesheerd</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-override.css" rel="stylesheet">
 		<!--[if lt IE 9]>
@@ -34,7 +34,7 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li><a href="faciliteiten.php">Faciliteiten</a></li>
-								<li class="active"><a href="uwvisie.php">Uw visie <span class="sr-only">(huidige)</span></a></li>
+								<li class="active"><a href="uwvisie.php">Uw Visie <span class="sr-only">(huidige)</span></a></li>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="route.php">Route</a></li>
 								<li><a href="omgeving.php">Omgeving</a></li>
@@ -45,7 +45,7 @@
 			</header><!-- header role="banner" -->
 			<div class="page-content">
 				<div class="page-header">
-					<h1>Uw visie</h1>
+					<h1>Uw Visie</h1>
 				</div>
                 <div id="text">
                     <p><img class="img-responsive alignright" src="upload/visie_floortje.jpg" alt="Visie" width="300" height="237"></p>
