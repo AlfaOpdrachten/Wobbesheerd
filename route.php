@@ -12,6 +12,24 @@
 			<script src="js/respond.min.js"></script>
 			<style>.container{max-width: 900px;}</style>
 		<![endif]-->
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png?v=rMw5aORP9o">
+		<link rel="icon" type="image/png" href="favicon-32x32.png?v=rMw5aORP9o" sizes="32x32">
+		<link rel="icon" type="image/png" href="android-chrome-192x192.png?v=rMw5aORP9o" sizes="192x192">
+		<link rel="icon" type="image/png" href="favicon-96x96.png?v=rMw5aORP9o" sizes="96x96">
+		<link rel="icon" type="image/png" href="favicon-16x16.png?v=rMw5aORP9o" sizes="16x16">
+		<link rel="manifest" href="manifest.json?v=rMw5aORP9o">
+		<link rel="shortcut icon" href="favicon.ico?v=rMw5aORP9o">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="mstile-144x144.png?v=rMw5aORP9o">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
 		<div class="container">
