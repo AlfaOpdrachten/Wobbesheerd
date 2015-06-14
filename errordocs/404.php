@@ -46,7 +46,7 @@
 				<p>De gevraagde URL was niet gevonden op de server.</p>
 				<h4>Suggesties:</h4>
 				<ul>
-					<li><a href="http://www.wobbesheerd.nl/">Ga naar de homepagina.</a></li>
+					<li><a href="/index.php">Ga naar de homepagina.</a></li>
 					<li><a href="<?php echo($_SERVER['HTTP_REFERER']); ?>" onclick="javascript:history.back();return false;">Ga naar de vorige pagina.</a></li>
 				</ul>
 			</div>
