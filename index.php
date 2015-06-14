@@ -73,7 +73,7 @@
 				<li>Overdekte rijhal 20 bij 40 meter.</li>
 				<li>2 grote altijd beschikbare rijbakken.</li>
 				<li>Stapmolen.</li>
-				<li>80&nbsp;hectare land voor uw paard.</li>
+				<li>80 hectare land voor uw paard.</li>
 				<li>3 grote stallen waar onder ook groeps huisvesting van veulens tot driejarigen.</li>
 				<li>Spoelplaats binnen en buiten.</li>
 				<li>Parkeerplaats voor uw trailer.</li>
