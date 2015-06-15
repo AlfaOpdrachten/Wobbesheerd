@@ -3,6 +3,12 @@ body {
 	padding: 25px;
 }
 
+@media (max-width: 900px) {
+	body {
+		padding: 0;
+	}
+}
+
 .container {
 	width: 900px;
 	max-width: 100%;
@@ -15,11 +21,16 @@ body {
 	overflow: hidden;
 }
 
+@media (max-width: 900px) {
+	.container {
+		border-radius: 0;
+	}
+}
+
 header[role="banner"] #logo-main {
 	display: block;
-	width: auto;
-	height: auto;
 	max-width: 100%;
+	height: auto;
 }
 
 #navbar-primary.navbar-default {
@@ -50,6 +61,18 @@ header[role="banner"] #logo-main {
 	color: inherit;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #eee;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #eee;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #999;
+}
+
 .page-header {
 	margin-top: 0;
 }
@@ -62,47 +85,77 @@ header[role="banner"] #logo-main {
 	border: 1px solid #234729;
 }
 
-.page-content img.alignnone {
+.page-content iframe img {
+	border: 0;
+}
+
+.img-responsive {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (max-width: 900px) {
+	.img-responsive.alignnone, .img-responsive.alignleft, .img-responsive.alignright {
+		display: block !important;
+		float: none !important;
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}
+
+@media (max-width: 900px) {
+	.img-responsive.img-aligncenter {
+		display: block !important;
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+.alignnone {
 	margin: 5px 20px 20px 0;
 }
 
-.page-content a img.alignnone {
+a .alignnone {
 	margin: 5px 20px 20px 0;
 }
 
-.page-content img.aligncenter {
+.aligncenter {
 	display: block;
 	margin: 5px auto 5px auto;
 }
 
-.page-content a img.aligncenter {
+a .aligncenter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto
 }
 
-.page-content img.alignleft {
+.alignleft {
 	float: left;
 	margin: 5px 20px 20px 0;
 }
 
-.page-content a img.alignleft {
+a .alignleft {
 	float: left;
 	margin: 5px 20px 20px 0;
 }
 
-.page-content img.alignright {
+.alignright {
 	float:right;
 	margin: 5px 0 20px 20px;
 }
 
-.page-content a img.alignright {
+a .alignright {
 	float: right;
 	margin: 5px 0 20px 20px;
 }
 
-.img-responsive {
-	display: initial;
+.embed-responsive-item {
+	width: 600px;
+	height: 450px;
+	max-width: 100%;
 }
 
 form[role="form"] * {
@@ -115,9 +168,23 @@ label {
 }
 
 .form-control {
-	display: initial;
+	display: inline-block;
 	width: 400px;
 	max-width: 95%;
+}
+
+textarea {
+    resize: none;
+}
+
+.footer {
+    background-color: #244729;
+    color: #fff;
+	padding: 20px;
+}
+
+.footer address {
+	margin-bottom: 0;
 }
 
 @keyframes blink {
@@ -139,18 +206,4 @@ blink {
 animation: blink 1s step-start 0s infinite;
 -webkit-animation: blink 1s step-start 0s infinite;
 -moz-animation: blink 1s step-start 0s infinite;
-}
-
-.footer {
-    background-color: #244729;
-    color: #fff;
-	padding: 20px;
-}
-
-.footer address {
-	margin-bottom: 0;
-}
-
-textarea {
-    resize: none;
 }

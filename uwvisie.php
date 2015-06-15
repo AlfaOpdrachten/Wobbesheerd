@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Wobbesheerd :: Paardenstalling Wobbesheerd Oostwold</title>
+		<title>Uw Visie :: Wobbesheerd</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-override.css" rel="stylesheet">
 		<!--[if lt IE 9]>
@@ -12,6 +12,24 @@
 			<script src="js/respond.min.js"></script>
 			<style>.container{max-width: 900px;}</style>
 		<![endif]-->
+		<link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png?v=rMw5aORP9o">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png?v=rMw5aORP9o">
+		<link rel="icon" type="image/png" href="favicon-32x32.png?v=rMw5aORP9o" sizes="32x32">
+		<link rel="icon" type="image/png" href="android-chrome-192x192.png?v=rMw5aORP9o" sizes="192x192">
+		<link rel="icon" type="image/png" href="favicon-96x96.png?v=rMw5aORP9o" sizes="96x96">
+		<link rel="icon" type="image/png" href="favicon-16x16.png?v=rMw5aORP9o" sizes="16x16">
+		<link rel="manifest" href="manifest.json?v=rMw5aORP9o">
+		<link rel="shortcut icon" href="favicon.ico?v=rMw5aORP9o">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="mstile-144x144.png?v=rMw5aORP9o">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
 		<div class="container">
@@ -34,7 +52,7 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav">
 								<li><a href="faciliteiten.php">Faciliteiten</a></li>
-								<li class="active"><a href="uwvisie.php">Uw visie <span class="sr-only">(huidige)</span></a></li>
+								<li class="active"><a href="uwvisie.php">Uw Visie <span class="sr-only">(huidige)</span></a></li>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="route.php">Route</a></li>
 								<li><a href="omgeving.php">Omgeving</a></li>
@@ -44,9 +62,8 @@
 				</nav>
 			</header><!-- header role="banner" -->
 			<div class="page-content">
-
 				<div class="page-header">
-					<h1>Uw visie</h1>
+					<h1>Uw Visie</h1>
 				</div>
                 <div id="text">
                     <p><img class="img-responsive alignright" src="upload/visie_floortje.jpg" alt="Visie" width="300" height="237"></p>
@@ -56,7 +73,6 @@
                     <p>Voor de opfok van uw paard hanteren wij een aparte prijs voor zowel de zomer- als de wintermaanden. De prijzen zijn exclusief hoefsmid- dierenarts- en entkosten.</p>
                     <p>Voor meer informatie inzake de prijzen van het opfokken van uw jonge paard/pony of het stallen van uw paard/pony kunt u met ons contact opnemen.</p>
                 </div>
-
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
