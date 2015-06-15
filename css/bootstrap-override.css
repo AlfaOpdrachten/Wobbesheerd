@@ -61,6 +61,18 @@ header[role="banner"] #logo-main {
 	color: inherit;
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #eee;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #eee;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #999;
+}
+
 .page-header {
 	margin-top: 0;
 }
