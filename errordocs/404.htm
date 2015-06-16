@@ -47,7 +47,8 @@
 				<h4>Suggesties:</h4>
 				<ul>
 					<li><a href="/index.php">Ga naar de homepagina.</a></li>
-					<li><a href="<?php echo($_SERVER['HTTP_REFERER']); ?>" onclick="javascript:history.back();return false;">Ga naar de vorige pagina.</a></li>
+					<li><a href=".">Probeer de pagina opnieuw te laden.</a></li>
+					<script>document.write('<li><a href="javascript:history.back();">Ga naar de vorige pagina.</a></li>');</script>
 				</ul>
 			</div>
 		</div>

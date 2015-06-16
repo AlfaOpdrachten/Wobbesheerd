@@ -2,7 +2,7 @@
 <html lang="nl">
 	<head>
 		<meta charset="utf-8">
-		<title>Error 403 :: Wobbesheerd</title>
+		<title>Error 500 :: Wobbesheerd</title>
 		<link href="/css/normalize.css" rel="stylesheet">
 		<style type="text/css">
 			body {
@@ -43,11 +43,12 @@
 		<div class="content">
 			<div class="content2">
 				<h1>Er is een fout opgetreden</h1>
-				<p>U hebt niet de toestemming om toegang te krijgen tot het gevraagde map of bestand.</p>
+				<p>Pagina is niet beschikbaar. De server is mogelijk overbelast.</p>
 				<h4>Suggesties:</h4>
 				<ul>
 					<li><a href="/index.php">Ga naar de homepagina.</a></li>
-					<li><a href="<?php echo($_SERVER['HTTP_REFERER']); ?>" onclick="javascript:history.back();return false;">Ga naar de vorige pagina.</a></li>
+					<li><a href=".">Probeer de pagina opnieuw te laden.</a></li>
+					<script>document.write('<li><a href="javascript:history.back();">Ga naar de vorige pagina.</a></li>');</script>
 				</ul>
 			</div>
 		</div>
