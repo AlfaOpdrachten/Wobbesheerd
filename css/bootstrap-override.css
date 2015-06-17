@@ -85,6 +85,10 @@ header[role="banner"] #logo-main {
 	border: 1px solid #234729;
 }
 
+.page-content #maps img {
+	border: 0;
+}
+
 .page-content iframe img {
 	border: 0;
 }
