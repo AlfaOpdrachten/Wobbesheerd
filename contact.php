@@ -77,8 +77,8 @@
 				</noscript></div>
 				<script>
 					document.getElementById("contact").innerHTML =
-						'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
-						'<form id="form" class="form-horizontal" role="form" action="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;" method="post">' +
+						'<form id="form" class="form-horizontal" role="form" action="mailto:info@wobbesheerd.nl?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0A%0D%0A%0D%0A" method="post" onsubmit="prepareSubmit()">' +
+							'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 							'<div class="form-group">' +
 								'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
 								'<div class="col-sm-10">' +
@@ -102,7 +102,7 @@
 							'<div class="form-group">' +
 								'<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>' +
 								'<div class="col-sm-10">' +
-									'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>' +
+									'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht.\n\nWaarden met meer dan 2000 tekens kunnnen mogelijk problemen in uw browser veroorzaken." required></textarea>' +
 									'<span class="text-danger"> *</span>' +
 								'</div>' +
 							'</div>' +
@@ -114,8 +114,11 @@
 						'</form>'
 
 					function eventHandler() {
-                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + email.value + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0A" + naam.value + "%0D%0A" + email.value + "%0D%0A" + nummer.value;
+                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + email.value + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0ANaam:%20" + naam.value + "%0D%0AE-mailadres:%20" + email.value + "%0D%0ATelefoon%20nummer:%20" + nummer.value;
                     }
+					function prepareSubmit() {
+						document.getElementById("form").innerHTML = '<p class="lead">Uw bericht is verzonden.</p>'
+					}
 
 					var naam = document.getElementById("naam");
 					var email = document.getElementById("email");
