@@ -72,41 +72,46 @@
 				<p>Als u vragen heeft of op zoek bent naar verdere mogelijkheden, neemt u dan contact op met ons. Wij staan u graag te woord.</p>
 				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
-				<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
-				<form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="naam">Naam:</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam" required>
-							<span class="text-danger">*</span>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="email">E-mail adres:</label>
-						<div class="col-sm-10">          
-							<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl" required>
-							<span class="text-danger">*</span>
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>
-						<div class="col-sm-10">          
-							<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">
-						</div>
-					</div>
-					<div class="form-group">
-						<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
-						<div class="col-sm-10">
-							<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>
-							<span class="text-danger">*</span>
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<button type="submit" class="btn btn-default">Verstuur bericht</button>
-						</div>
-					</div>
-				</form>
+				<div id="contact"><noscript>
+					<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">Neem contact op.</a></p>
+				</noscript><script>
+					document.getElementById("contact").innerHTML = 
+						'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
+						'<form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">' +
+							'<div class="form-group">' +
+								'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
+								'<div class="col-sm-10">' +
+									'<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam" required>' +
+									'<span class="text-danger"> *</span>' +
+								'</div>' +
+							'</div>' +
+							'<div class="form-group">' +
+								'<label class="control-label col-sm-2" for="email">E-mail adres:</label>' +
+								'<div class="col-sm-10">' +
+									'<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl" required>' +
+									'<span class="text-danger"> *</span>' +
+								'</div>' +
+							'</div>' +
+							'<div class="form-group">' +
+								'<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>' +
+								'<div class="col-sm-10">' +
+									'<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">' +
+								'</div>' +
+							'</div>' +
+							'<div class="form-group">' +
+								'<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>' +
+								'<div class="col-sm-10">' +
+									'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>' +
+									'<span class="text-danger"> *</span>' +
+								'</div>' +
+							'</div>' +
+							'<div class="form-group">' +
+								'<div class="col-sm-offset-2 col-sm-10">' +
+									'<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>' +
+								'</div>' +
+							'</div>' +
+						'</form>'
+				</script></div>
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
