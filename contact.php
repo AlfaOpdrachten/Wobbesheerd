@@ -114,17 +114,14 @@
 						'</form>'
 
 					function eventHandler() {
-                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?SUBJECT=Contact%20via%20website.?BODY=" + bericht.value;
+                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?SUBJECT=Contact%20via%20wobbesheerd.nl?BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0A" + naam.value + "%0D%0A" + nummer.value;
                     }
 
 					var naam = document.getElementById("naam");
-					naam.onkeydown = naam.onkeyup = naam.onclick = eventHandler;
 					var email = document.getElementById("email");
-					email.onkeydown = email.onkeyup = email.onclick = eventHandler;
 					var nummer = document.getElementById("nummer");
-					nummer.onkeydown = nummer.onkeyup = nummer.onclick = eventHandler;
 					var bericht = document.getElementById("bericht");
-					bericht.onkeydown = bericht.onkeyup = bericht.onclick = eventHandler;
+					naam.onkeydown = naam.onkeyup = naam.onclick = email.onkeydown = email.onkeyup = email.onclick = nummer.onkeydown = nummer.onkeyup = nummer.onclick = bericht.onkeydown = bericht.onkeyup = bericht.onclick = eventHandler;
 				</script>
 			</div><!-- /.page-content -->
 			<footer class="footer">
