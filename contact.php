@@ -76,7 +76,7 @@
 					<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">Neem contact op.</a></p>
 				</noscript></div>
 				<script>
-					document.getElementById("contact").innerHTML = 
+					document.getElementById("contact").innerHTML =
 						'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 						'<form id="form" class="form-horizontal" role="form" action="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;" method="post">' +
 							'<div class="form-group">' +
@@ -114,14 +114,14 @@
 						'</form>'
 
 					function eventHandler() {
-						document.getElementById("form").action = "/"
-					}
+                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?SUBJECT=Contact%20via%20website.?BODY=" + bericht.value;
+                    }
 
 					var naam = document.getElementById("naam");
 					naam.onkeydown = naam.onkeyup = naam.onclick = eventHandler;
 					var email = document.getElementById("email");
 					email.onkeydown = email.onkeyup = email.onclick = eventHandler;
-					var naam = document.getElementById("nummer");
+					var nummer = document.getElementById("nummer");
 					nummer.onkeydown = nummer.onkeyup = nummer.onclick = eventHandler;
 					var bericht = document.getElementById("bericht");
 					bericht.onkeydown = bericht.onkeyup = bericht.onclick = eventHandler;
@@ -134,7 +134,7 @@
 					Tel: 050-5515623<br>
 					Mob. 06-15596766 <br>
 					Email: <span class="email"><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></span><br>
-				</address>	
+				</address>
 			</footer>
 		</div><!-- /.container -->
 		<script src="js/jquery.min.js"></script>
