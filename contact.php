@@ -74,10 +74,11 @@
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
 				<div id="contact"><noscript>
 					<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">Neem contact op.</a></p>
-				</noscript><script>
+				</noscript></div>
+				<script>
 					document.getElementById("contact").innerHTML = 
 						'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
-						'<form class="form-horizontal" role="form" action="formulierverzenden.php" method="post">' +
+						'<form id="form" class="form-horizontal" role="form" action="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;" method="post">' +
 							'<div class="form-group">' +
 								'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
 								'<div class="col-sm-10">' +
@@ -111,7 +112,20 @@
 								'</div>' +
 							'</div>' +
 						'</form>'
-				</script></div>
+
+					function eventHandler() {
+						document.getElementById("form").action = "/"
+					}
+
+					var naam = document.getElementById("naam");
+					naam.onkeydown = naam.onkeyup = naam.onclick = eventHandler;
+					var email = document.getElementById("email");
+					email.onkeydown = email.onkeyup = email.onclick = eventHandler;
+					var naam = document.getElementById("nummer");
+					nummer.onkeydown = nummer.onkeyup = nummer.onclick = eventHandler;
+					var bericht = document.getElementById("bericht");
+					bericht.onkeydown = bericht.onkeyup = bericht.onclick = eventHandler;
+				</script>
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
