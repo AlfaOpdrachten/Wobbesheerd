@@ -114,7 +114,7 @@
 						'</form>'
 
 					function eventHandler() {
-                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + document.getElementById("email") + "&SUBJECT=Contact%20via%20wobbesheerd.nl?BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0A" + naam.value + "%0D%0A" + email.value + "%0D%0A" + nummer.value;
+                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + email.value + "&SUBJECT=Contact%20via%20wobbesheerd.nl?BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0A" + naam.value + "%0D%0A" + email.value + "%0D%0A" + nummer.value;
                     }
 
 					var naam = document.getElementById("naam");
