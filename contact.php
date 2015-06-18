@@ -72,6 +72,7 @@
 				<p>Als u vragen heeft of op zoek bent naar verdere mogelijkheden, neemt u dan contact op met ons. Wij staan u graag te woord.</p>
 				<p>Met vriendelijke groet,<br>Reinier Wobbes</p>
 				<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;</a></p>
+				<p>&nbsp;</p>
 				<div id="contact"><noscript>
 					<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">Neem contact op.</a></p>
 				</noscript></div>
@@ -79,6 +80,7 @@
 					document.getElementById("contact").innerHTML =
 						'<form id="form" class="form-horizontal" role="form" action="mailto:info@wobbesheerd.nl?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0A%0D%0A%0D%0A" method="post" onsubmit="prepareSubmit()">' +
 							'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
+							'<p class="text-info small">Zeer lange berichten kunnen problemen in uw browser veroorzaken.</p>' +
 							'<div class="form-group">' +
 								'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
 								'<div class="col-sm-10">' +
@@ -102,7 +104,7 @@
 							'<div class="form-group">' +
 								'<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>' +
 								'<div class="col-sm-10">' +
-									'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht.\n\nWaarden met meer dan 2000 tekens kunnnen mogelijk problemen in uw browser veroorzaken." required></textarea>' +
+									'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>' +
 									'<span class="text-danger"> *</span>' +
 								'</div>' +
 							'</div>' +
@@ -111,7 +113,7 @@
 									'<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>' +
 								'</div>' +
 							'</div>' +
-						'</form>'
+						'</form>';
 
 					function eventHandler() {
                         document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + email.value + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0ANaam:%20" + naam.value + "%0D%0AE-mailadres:%20" + email.value + "%0D%0ATelefoon%20nummer:%20" + nummer.value;
