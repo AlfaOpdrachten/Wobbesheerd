@@ -116,7 +116,7 @@
 				</script></div>
 				<script>
 					function eventHandler() {
-                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + email.value + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + bericht.value.replace(/[\r\n]/g, "%0D%0A") + "%0D%0A%0D%0ANaam:%20" + naam.value + "%0D%0AE-mailadres:%20" + email.value + "%0D%0ATelefoon%20nummer:%20" + nummer.value;
+                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase());
                     }
 					function prepareSubmit() {
 						document.getElementById("form").innerHTML = '<p class="lead">Uw bericht is verzonden.</p>'
