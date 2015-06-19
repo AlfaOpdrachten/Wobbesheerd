@@ -38,86 +38,7 @@
 <div id="content_wrapper_bottom">
 <div id="content">
 
-    <style>
-        article{
 
-            position: fixed;
-            width: 70%;
-            left: 0%;
-            right: 0%;
-            top: 0;
-            bottom: 0;
-            padding: 30px 15%;
-            overflow: auto;
-            z-index: 0;
-            transform-origin: 0 50%;
-
-        }
-
-        article:after {
-            position: absolute;
-            content: "";
-            left: 100%
-        top: 0%;
-            right: 0;
-            bottom: 0;
-        }
-
-        nav {
-
-            position: fixed;
-            left: -15em;
-            top: 0;
-            bottom: 0;
-            background-color: #234729;
-            border-right: 40px solid darkgreen;
-            box-shadow: 5px 0 5px rgba(0,0,0,0.2);
-            z-index: 1;
-            cursor: pointer;
-        }
-
-        nav:after {
-
-            position: absolute;
-            content: "";
-            width: 0;
-            height: 0;
-            right: -70px;
-            top: 50%;
-            border-width: 15px 15px;
-            border-style: solid;
-            border-color: transparent;
-        }
-
-        nav ul {
-
-            width: 15em;
-            list-style-type: none;
-            font-size: 20px;
-        }
-
-        article, article:after, nav, nav * {
-            transition: all 1000ms ease;
-
-        }
-
-        nav:hover {
-
-            left:0;
-
-        }
-
-        nav:hover - article:after {
-                        left: 60%;
-                    }
-
-        nav li{
-
-            color: black;
-            padding: 5%;
-        }
-
-    </style>
 
     <menu>
 
@@ -155,8 +76,49 @@
 <li>De zadelkastruimtes</li>
 </ul>
 <p>&nbsp;</p>
-<img class="alignright" src="/upload/DSC_0018.jpg" alt="" width="608" height="440"> 
 </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+    </head>
+    <body>
+
+    <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+            </ol>
+
+
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/upload/DSC_0018.jpg" alt="Boederij" width="460" height="345">
+                </div>
+
+
+            </div>
+
+
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
 
 </div>
 </div>
@@ -172,7 +134,6 @@ Mob: 06-15596766<br>
 Email: <span class="email"><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#105;&#110;&#102;&#111;&#64;&#119;&#111;&#98;&#98;&#101;&#115;&#104;&#101;&#101;&#114;&#100;&#46;&#110;&#108;">&#105;&#110;&#102;&#111;&#64;&#119;&#111;&#98;&#98;&#101;&#115;&#104;&#101;&#101;&#114;&#100;&#46;&#110;&#108;</a></span>
 </address>
 </div>
-
 </div>
 </body>
 </html>

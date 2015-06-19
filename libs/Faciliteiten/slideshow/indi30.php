@@ -35,86 +35,6 @@
 <div id="content_wrapper_bottom">
 <div id="content">
 
-    <style>
-        article{
-
-                     position: fixed;
-                        width: 70%;
-                        left: 0%;
-                        right: 0%;
-                        top: 0;
-                        bottom: 0;
-                        padding: 30px 15%;
-                        overflow: auto;
-                        z-index: 0;
-                        transform-origin: 0 50%;
-
-        }
-
-        article:after {
-                        position: absolute;
-                        content: "";
-                        left: 100%
-                        top: 0%;
-                        right: 0;
-                        bottom: 0;
-        }
-
-        nav {
-
-                        position: fixed;
-                        left: -15em;
-                        top: 0;
-                        bottom: 0;
-                        background-color: #234729;
-                        border-right: 40px solid darkgreen;
-                        box-shadow: 5px 0 5px rgba(0,0,0,0.2);
-                        z-index: 1;
-                        cursor: pointer;
-        }
-
-        nav:after {
-
-                    position: absolute;
-                    content: "";
-                    width: 0;
-                    height: 0;
-                    right: -70px;
-                    top: 50%;
-                    border-width: 15px 15px;
-                    border-style: solid;
-                    border-color: transparent;
-        }
-
-        nav ul {
-
-                    width: 15em;
-                    list-style-type: none;
-                    font-size: 20px;
-        }
-
-        article, article:after, nav, nav * {
-                                                transition: all 1000ms ease;
-
-        }
-
-        nav:hover {
-
-                    left:0;
-
-        }
-
-        nav:hover - article:after {
-                                    left: 60%;
-                    }
-
-        nav li{
-
-                    color: black;
-                    padding: 5%;
-        }
-
-    </style>
 
     <menu>
 
@@ -147,24 +67,91 @@
 
 
 
-<div id="text">
-<h1>Individuele stallen (30 boxen)</h1>
-<p>In deze stal hebben wij 30 ruime boxen. Achter deze geisoleerde stal bevinden zich twee paddocks waar de paarden in de winterperiode dagelijks naar buiten gaan.</p>
-<p>&nbsp;</p>
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 70%;
+            margin: auto;
+        }
+    </style>
+    </head>
+    <body>
+
+    <div class="container">
+        <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+            </ol>
+
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <img src="/upload/DSC_0007(1).jpg" alt="Stapmolen" width="500" height="500">
+                    <div class="carousel-caption">
+                        <h3>Stallen</h3>
+                        <p>In deze stal hebben wij 30 ruime boxen.</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="/upload/DSC_0005.jpg" alt="Stapmolen" width="500" height="500">
+                    <div class="carousel-caption">
+                        <h3>Stallen</h3>
+                        <p>Achter deze geisoleerde stal bevinden zich twee paddocks waar de paarden in de winterperiode dagelijks naar buiten gaan.</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="/upload/DSC_0014(1" alt="Stapmolen" width="500" height="500">
+                        <div class="carousel-caption">
+                            <h3>Stallen</h3>
+                            <p></p>
+                        </div>
+
+                        <div class="item">
+                            <img src="/upload/DSC_0006(1).jpg" alt="Stapmolen" width="500" height="500">
+                            <div class="carousel-caption">
+                                <h3>Stallen</h3>
+                                <p> </p>
+                            </div>
+
+                            <div class="item">
+                                <img src="/upload/DSC_0008.jpg" alt="Stapmolen" width="500" height="500">
+                                <div class="carousel-caption">
+                                    <h3>Stallen</h3>
+                                    <p></p>
+                                </div>
+
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
 
 
 
 
-    <p><img class="alignright" src="/upload/DSC_0007(1).jpg" alt="" width="500" height="500">
-        <img class="alignright" src="/upload/DSC_0005.jpg" alt="" width="500" height="500">
-        <img class="alignright" src="/upload/DSC_0014(1).jpg" alt="" width="500" height="500">
-        <img class="alignright" src="/upload/DSC_0006(1).jpg" alt="" width="500" height="500">
-        <img class="alignright" src="/upload/DSC_0008.jpg" alt="" width="500" height="500"></p>
+                            </div>
 
 
-</div>
 
-</div>
+            </div>
 </div>
 </div>
 </div>
