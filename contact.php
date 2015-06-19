@@ -119,7 +119,10 @@
                         document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase());
                     }
 					function prepareSubmit() {
-						document.getElementById("form").innerHTML = '<p class="lead">Uw bericht is verzonden.</p>'
+						var form = document.getElementById("form");
+						form.innerHTML = '<p class="lead">Uw bericht is verzonden.</p>'
+						form.submit();
+						return false;
 					}
 
 					var naam = document.getElementById("naam");
