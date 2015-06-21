@@ -77,7 +77,7 @@
 					<p><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">Neem contact op.</a></p>
 				</noscript><script>
 					document.getElementById("contact").innerHTML =
-						'<form id="form" class="form-horizontal" role="form" action="mailto:info@wobbesheerd.nl?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20%0D%0ATelefoon%20nummer:%20" method="post" onsubmit="prepareSubmit()">' +
+						'<form id="form" class="form-horizontal" role="form" action="javascript:void(0);" method="post" onsubmit="prepareSubmit()">' +
 							'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 							'<p class="text-info small">Zeer lange berichten kunnen problemen in uw browser veroorzaken.</p>' +
 							'<div class="form-group">' +
@@ -116,21 +116,23 @@
 				</script></div>
 				<script>
 					function eventHandler() {
-                        document.getElementById("form").action =  "mailto:info@wobbesheerd.nl?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase());
+                        mailto = "mailto:info@wobbesheerd.nl?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase());
                     }
 					function prepareSubmit() {
 						var form = document.getElementById("form");
-						form.innerHTML = '<p class="lead">Uw bericht is verzonden.</p>'
-						form.submit();
+						form.innerHTML = '<p class="lead">Uw bericht is opgesteld</p><p>en er is een verzoek verstuurt naar uw mailprogramma om het bericht te openen.</p>'
+						document.body.insertAdjacentHTML('beforeend', '<iframe src="' + mailto + '" width="0" height="0" frameborder="0" style="border:0;display:none;">');
 						return false;
 					}
+
+					var mailto = "mailto:info@wobbesheerd.nl?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20%0D%0ATelefoon%20nummer:%20";
 
 					var naam = document.getElementById("naam");
 					var email = document.getElementById("email");
 					var nummer = document.getElementById("nummer");
 					var bericht = document.getElementById("bericht");
 					var submit = document.getElementById("submit");
-					naam.onkeyup = email.onkeyup = nummer.onkeyup = bericht.onkeyup = submit.onclick = eventHandler;
+					naam.onkeyup = email.onkeyup = nummer.onkeyup = bericht.onkeyup = eventHandler;
 				</script>
 			</div><!-- /.page-content -->
 			<footer class="footer">

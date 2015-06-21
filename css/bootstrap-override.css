@@ -93,6 +93,10 @@ header[role="banner"] #logo-main {
 	border: 0;
 }
 
+.lead {
+	margin-bottom: 10px;
+}
+
 .img-responsive {
 	display: inline-block;
 	max-width: 100%;
