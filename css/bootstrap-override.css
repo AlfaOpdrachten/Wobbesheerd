@@ -117,6 +117,7 @@ header[role="banner"] #logo-main {
 	height: auto;
 	min-height: 236px;
 	margin: auto;
+	border: 0;
 }
 
 .img-responsive {
