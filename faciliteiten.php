@@ -65,8 +65,124 @@
 				<div class="page-header">
 					<h1>Faciliteiten</h1>
 				</div>
-				<p>Tekst</p>
-			</div><!-- /.page-content -->
+
+
+                <style>
+                    .carousel-inner > .item > img,
+                    .carousel-inner > .item > a > img {
+                        width: 70%;
+                        margin: auto;
+                    }
+                </style>
+
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                        <li data-target="#myCarousel" data-slide-to="5"></li>
+                        <li data-target="#myCarousel" data-slide-to="6"></li>
+                        <li data-target="#myCarousel" data-slide-to="7"></li>
+                        <li data-target="#myCarousel" data-slide-to="8"></li>
+
+
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img src="upload/DSC_0004.jpg" alt="Stapmolen" title="Stapmolen" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Stapmolen</h3>
+                                <p>Na het rijden kunnen de paarden uitstappen in de molen.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="upload/DSC_0018.jpg" alt="Boederij" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Boederij</h3>
+                                <p>De boerderij is onze droge stek, in het achterste gedeelte ingedeeld in twee ruimtes.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="upload/DSC_0006.jpg" alt="Groepstal" title="Groepstal" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Groepstal</h3>
+                                <p>De groepsstal biedt ruimte voor 5 groepen van 8 paarden.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <img src="upload/DSC_0041.jpg" alt="Rijbak" title="Rijbak" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Rijbak</h3>
+                                <p>De grote rijbak heeft een afmeting van 25 bij 60 meter, omheind met sterke stevige balken.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="upload/linkerstal.jpg" alt="indi10" title="indi10" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Individuele bakken 10</h3>
+                                <p>Deze stal bestaat uit 10 individuele boxen die direct gelegen zijn aan de spoelplaats.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="upload/DSC_0008.jpg" alt="indi30" title="indi30" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Individuele bakken 30</h3>
+                                <p>Achter deze geisoleerde stal bevinden zich twee paddocks waar de paarden in de winterperiode dagelijks naar buiten gaan..</p>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <img src="upload/bakachterschuur.jpg" alt="bak" title="bak" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Achterschuur</h3>
+                                <p>De kleine bak ligt direct aan de stallen en heeft hier tussen ook de buiten spoelplaats liggen.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <img src="upload/DSC_0007.jpg" alt="Trailer" title="Trailer" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Trailer</h3>
+                                <p>Ja, de trailer, altijd bekend als het apparaat dat altijd in de weg staat en alleen dan gebruikt wordt als de afstand met het paard te groot is.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="item">
+                            <img src="upload/DSC_0027(1).jpg" alt="Weide" title="Weide" width="500" height="500">
+                            <div class="carousel-caption">
+                                <h3>Weide</h3>
+                                <p>Wobbesheerd beschikt over 6 hectare weide op de locatie zelf en beschikt ook over 55 hectare goede klei grond voor het weiden van jonge paarden tot 3 jaar.</p>
+                            </div>
+                        </div>
+
+
+
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
 					Hoofdstraat 216<br>
