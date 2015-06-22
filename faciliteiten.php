@@ -65,16 +65,6 @@
 				<div class="page-header">
 					<h1>Faciliteiten</h1>
 				</div>
-
-
-                <style>
-                    .carousel-inner > .item > img,
-                    .carousel-inner > .item > a > img {
-                        width: 70%;
-                        margin: auto;
-                    }
-                </style>
-
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
@@ -87,8 +77,6 @@
                         <li data-target="#myCarousel" data-slide-to="6"></li>
                         <li data-target="#myCarousel" data-slide-to="7"></li>
                         <li data-target="#myCarousel" data-slide-to="8"></li>
-
-
                     </ol>
 
                     <!-- Wrapper for slides -->
@@ -162,15 +150,13 @@
 
 
                         <div class="item">
-                            <img src="upload/DSC_0027(1).jpg" alt="Weide" title="Weide" width="500" height="500">
+                            <img src="upload/DSC_0027(1).jpg" alt="Weide" title="Weide" width="460" height="345">
                             <div class="carousel-caption">
                                 <h3>Weide</h3>
                                 <p>Wobbesheerd beschikt over 6 hectare weide op de locatie zelf en beschikt ook over 55 hectare goede klei grond voor het weiden van jonge paarden tot 3 jaar.</p>
                             </div>
                         </div>
-
-
-
+					</div>
 
                     <!-- Left and right controls -->
                     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -181,7 +167,7 @@
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
-                </div>
+				</div>
             </div><!-- /.page-content -->
 			<footer class="footer">
 				<address>
