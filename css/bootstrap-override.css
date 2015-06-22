@@ -78,7 +78,7 @@ header[role="banner"] #logo-main {
 }
 
 .page-content {
-	margin-top: 20px;
+	margin: 20px;
 }
 
 .page-content img {
@@ -95,6 +95,11 @@ header[role="banner"] #logo-main {
 
 .lead {
 	margin-bottom: 10px;
+}
+
+#myCarousel {
+	margin-left: -20px;
+	margin-right: -20px;
 }
 
 .carousel-inner > .item > .carousel-caption > h3,
