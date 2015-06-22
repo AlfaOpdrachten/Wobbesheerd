@@ -125,7 +125,7 @@
 						return false;
 					}
 
-					var mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20%0D%0ATelefoon%20nummer:%20";
+					var mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20";
 
 					var naam = document.getElementById("naam");
 					var email = document.getElementById("email");
