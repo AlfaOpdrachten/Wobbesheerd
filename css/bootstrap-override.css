@@ -93,17 +93,25 @@ header[role="banner"] #logo-main {
 	border: 0;
 }
 
+.carousel-inner > .item > .carousel-caption > h3,
+.carousel-inner > .item > .carousel-caption > a > h3,
 .carousel-inner > .item > .carousel-caption > p,
 .carousel-inner > .item > .carousel-caption > a > p,
-.carousel-inner > .item > .carousel-caption > h3,
-.carousel-inner > .item > .carousel-caption > a > h3 {
+.carousel-inner > .item > .carousel-caption > ul > li,
+.carousel-inner > .item > .carousel-caption > a > ul > li {
 	text-shadow: 0 0 3px #000;
+}
+
+.carousel-inner > .item > .carousel-caption > ul > li,
+.carousel-inner > .item > .carousel-caption > a > ul > li {
+	text-align: left;
 }
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	width: 70%;
 	height: auto;
+	min-height: 236px;
 	margin: auto;
 }
 
