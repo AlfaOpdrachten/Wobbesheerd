@@ -77,14 +77,17 @@
                         <li data-target="#myCarousel" data-slide-to="6"></li>
                         <li data-target="#myCarousel" data-slide-to="7"></li>
                         <li data-target="#myCarousel" data-slide-to="8"></li>
+						<li data-target="#myCarousel" data-slide-to="9"></li>
+						<li data-target="#myCarousel" data-slide-to="10"></li>
+						<li data-target="#myCarousel" data-slide-to="11"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="upload/DSC_0018.jpg" alt="Boederij" width="460" height="345">
+                            <img src="upload/DSC_0018-slide.jpg" alt="Boerderij" title="Boerderij" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Boederij</h3>
+                                <h3>Boerderij</h3>
                                 <p>De boerderij is onze droge stek, in het achterste gedeelte ingedeeld in twee ruimtes.</p>
 								<ul>
 									<li>De kantine</li>
@@ -94,70 +97,91 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0004.jpg" alt="Stapmolen" title="Stapmolen" width="460" height="345">
+                            <img src="upload/DSC_0013-slide.jpg" alt="Overdekte rijhal" title="Overdekte rijhal" width="602" height="400">
+                            <div class="carousel-caption">
+                                <h3>Overdekte rijhal</h3>
+                                <p>In de rijhal van 20 x 40 meter kan ten alle tijden gereden worden.</p>
+								<p>In deze hal zijn 20 ruime boxen en een dubbele spoelplaats aanwezig.</p>
+                            </div>
+                        </div>
+
+						<div class="item">
+                            <img src="upload/DSC_0004-slide.jpg" alt="Stapmolen" title="Stapmolen" width="602" height="400">
                             <div class="carousel-caption">
                                 <h3>Stapmolen</h3>
                                 <p>Na het rijden kunnen de paarden uitstappen in de molen.</p>
                             </div>
                         </div>
 
-                        <div class="item">
-                            <img src="upload/DSC_0006.jpg" alt="Groepstal" title="Groepstal" width="460" height="345">
+						<div class="item">
+                            <img src="upload/DSC_0041-slide.jpg" alt="Grote buitenbak" title="Grote buitenbak" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Groepstal</h3>
-                                <p>De groepsstal biedt ruimte voor 5 groepen van 8 paarden.</p>
+                                <h3>Grote buitenbak</h3>
+                                <p>De grote rijbak heeft een afmeting van 25 bij 60 meter, omheind met sterke stevige balken. De rijbak is voorzien van  6 lichtmasten om goede rijomstandigheden te garanderen.</p>
                             </div>
                         </div>
 
-
-                        <div class="item">
-                            <img src="upload/DSC_0041.jpg" alt="Rijbak" title="Rijbak" width="460" height="345">
+						<div class="item">
+                            <img src="upload/DSC_0038(1)-slide.jpg" alt="Kleine buitenbak" title="Kleine buitenbak" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Rijbak</h3>
-                                <p>De grote rijbak heeft een afmeting van 25 bij 60 meter, omheind met sterke stevige balken.</p>
+                                <h3>Kleine buitenbak</h3>
+                                <p>De 'kleine' bak is niet echt klein (20 bij 40 meter) maar wordt bij ons in de eerste plaats gebruikt om te longeren, de paarden dagelijks te luchten. Er kan natuurlijk ook in gereden worden.</p>
+                            </div>
+                        </div>
+
+						<div class="item">
+                            <img src="upload/DSC_0009-slide.jpg" alt="Paddock" title="Paddock" width="602" height="400">
+                            <div class="carousel-caption">
+                                <h3>Paddock</h3>
+                                <p>De paddock geeft ruimte aan de paarden om hun benen even lekker te strekken. Vooral in de winter kunnen ze dan even lekker luchten.</p>
                             </div>
                         </div>
 
                         <div class="item">
-                            <img src="upload/linkerstal.jpg" alt="indi10" title="indi10" width="460" height="345">
+                            <img src="upload/DSC_0006-slide.jpg" alt="Groepsstal voor jonge paarden" title="Groepsstal voor jonge paarden" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Individuele bakken 10</h3>
-                                <p>Deze stal bestaat uit 10 individuele boxen die direct gelegen zijn aan de spoelplaats.</p>
+                                <h3>Groepsstal voor jonge paarden</h3>
+                                <p>Deze huisvesting is bedoeld voor veulens tot 3 jarigen. Elke groep heeft een eigen watervoorziening. Ook deze stal heeft zijn eigen paddock.</p>
                             </div>
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0008.jpg" alt="indi30" title="indi30" width="460" height="345">
+                            <img src="upload/DSC_0014(1)-slide.jpg" alt="Individuele stallen (30 boxen)" title="Individuele stallen (30 boxen)" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Individuele bakken 30</h3>
-                                <p>Achter deze geisoleerde stal bevinden zich twee paddocks waar de paarden in de winterperiode dagelijks naar buiten gaan..</p>
+                                <h3>Individuele stallen (30 boxen)</h3>
+                                <p>In deze stal hebben wij 30 ruime boxen. Achter deze geisoleerde stal bevinden zich twee paddocks waar de paarden in de winterperiode dagelijks naar buiten gaan.</p>
                             </div>
                         </div>
 
-
                         <div class="item">
-                            <img src="upload/bakachterschuur.jpg" alt="bak" title="bak" width="460" height="345">
+                            <img src="upload/linkerstal-slide.jpg" alt="Individuele stallen (10 boxen)" title="Individuele stallen (10 boxen)" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Achterschuur</h3>
-                                <p>De kleine bak ligt direct aan de stallen en heeft hier tussen ook de buiten spoelplaats liggen.</p>
+                                <h3>Individuele stallen (10 boxen)</h3>
+                                <p>Deze stal bestaat uit 10 individuele boxen bedoeld voor de kleinere paarden en pony's. Ook hebben wij in deze stal een kraambox die voorzien is van een camera.</p>
                             </div>
                         </div>
 
-
                         <div class="item">
-                            <img src="upload/DSC_0007.jpg" alt="Trailer" title="Trailer" width="460" height="345">
+                            <img src="upload/DSC_0002-slide.jpg" alt="Groepsstal" title="Groepsstal" width="602" height="400">
                             <div class="carousel-caption">
-                                <h3>Trailer</h3>
-                                <p>Ja, de trailer, altijd bekend als het apparaat dat altijd in de weg staat en alleen dan gebruikt wordt als de afstand met het paard te groot is.</p>
+                                <h3>Groepsstal</h3>
+                                <p>De ronde stal is een zeer ruime stal waar we een groep van 10-12 paarden zich kunnen huisvesten. Deze groepsstal is bedoeld voor veulens tot 3 jarigen.</p>
                             </div>
                         </div>
 
-
-                        <div class="item">
-                            <img src="upload/DSC_0027(1).jpg" alt="Weide" title="Weide" width="460" height="345">
+						<div class="item">
+                            <img src="upload/DSC_0027(1)-slide.jpg" alt="Weide" title="Weide" width="602" height="400">
                             <div class="carousel-caption">
                                 <h3>Weide</h3>
                                 <p>Wobbesheerd beschikt over 6 hectare weide op de locatie zelf en beschikt ook over 55 hectare goede klei grond voor het weiden van jonge paarden tot 3 jaar.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="upload/DSC_0007-slide.jpg" alt="Trailerstalling" title="Trailerstalling" width="602" height="400">
+                            <div class="carousel-caption">
+                                <h3>Trailerstalling</h3>
+                                <p>Ja, de trailer, altijd bekend als het apparaat dat altijd in de weg staat en alleen dan gebruikt wordt als de afstand met het paard te groot is.</p>
                             </div>
                         </div>
 					</div>
