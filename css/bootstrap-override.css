@@ -78,7 +78,7 @@ header[role="banner"] #logo-main {
 }
 
 .page-content {
-	margin: 20px;
+	margin-top: 20px;
 }
 
 .page-content img {
@@ -93,13 +93,17 @@ header[role="banner"] #logo-main {
 	border: 0;
 }
 
+.lead {
+	margin-bottom: 10px;
+}
+
 .carousel-inner > .item > .carousel-caption > h3,
 .carousel-inner > .item > .carousel-caption > a > h3,
 .carousel-inner > .item > .carousel-caption > p,
 .carousel-inner > .item > .carousel-caption > a > p,
 .carousel-inner > .item > .carousel-caption > ul > li,
 .carousel-inner > .item > .carousel-caption > a > ul > li {
-	text-shadow: 0 0 3px #000;
+	text-shadow: 0 0 4px #000;
 }
 
 .carousel-inner > .item > .carousel-caption > ul > li,
@@ -113,10 +117,6 @@ header[role="banner"] #logo-main {
 	height: auto;
 	min-height: 236px;
 	margin: auto;
-}
-
-.lead {
-	margin-bottom: 10px;
 }
 
 .img-responsive {
