@@ -116,7 +116,7 @@
 				</script></div>
 				<script>
 					function eventHandler() {
-                        mailto = "mailto:info@wobbesheerd.nl?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase());
+                        mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase());
                     }
 					function prepareSubmit() {
 						var form = document.getElementById("form");
@@ -125,7 +125,7 @@
 						return false;
 					}
 
-					var mailto = "mailto:info@wobbesheerd.nl?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20%0D%0ATelefoon%20nummer:%20";
+					var mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20%0D%0ATelefoon%20nummer:%20";
 
 					var naam = document.getElementById("naam");
 					var email = document.getElementById("email");
