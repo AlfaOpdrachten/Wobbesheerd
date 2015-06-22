@@ -92,10 +92,18 @@ header[role="banner"] #logo-main {
 .page-content iframe img {
 	border: 0;
 }
+
+.carousel-inner > .item > .carousel-caption > p,
+.carousel-inner > .item > .carousel-caption > a > p,
+.carousel-inner > .item > .carousel-caption > h3,
+.carousel-inner > .item > .carousel-caption > a > h3 {
+	text-shadow: 0 0 3px #000;
+}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	width: 70%;
-	height: 345px;
+	height: auto;
 	margin: auto;
 }
 
