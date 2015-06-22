@@ -82,18 +82,22 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="upload/DSC_0004.jpg" alt="Stapmolen" title="Stapmolen" width="460" height="345">
-                            <div class="carousel-caption">
-                                <h3>Stapmolen</h3>
-                                <p>Na het rijden kunnen de paarden uitstappen in de molen.</p>
-                            </div>
-                        </div>
-
-                        <div class="item">
                             <img src="upload/DSC_0018.jpg" alt="Boederij" width="460" height="345">
                             <div class="carousel-caption">
                                 <h3>Boederij</h3>
                                 <p>De boerderij is onze droge stek, in het achterste gedeelte ingedeeld in twee ruimtes.</p>
+								<ul>
+									<li>De kantine</li>
+									<li>De zadelkastruimtes</li>
+								</ul>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="upload/DSC_0004.jpg" alt="Stapmolen" title="Stapmolen" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>Stapmolen</h3>
+                                <p>Na het rijden kunnen de paarden uitstappen in de molen.</p>
                             </div>
                         </div>
 
