@@ -21,6 +21,8 @@ body {
 	overflow: hidden;
 }
 
+
+
 @media (max-width: 900px) {
 	.container {
 		border-radius: 0;
@@ -53,11 +55,11 @@ header[role="banner"] #logo-main {
 	background-color: transparent;
 }
 
-.navbar-header > a.navbar-brand {
-	color: inherit;
+.navbar-header > a.navbar-brand  {
+	color:inherit;
 }
 
-.navbar-header > a.navbar-brand:hover {
+.navbar-header > a.navbar-brand:focus {
 	color: inherit;
 }
 
