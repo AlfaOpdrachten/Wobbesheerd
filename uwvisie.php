@@ -65,6 +65,11 @@
 				<div class="page-header">
 					<h1>Uw Visie</h1>
 				</div>
+				<?php
+					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.VISIE.1');
+					$data = json_decode($json, 1)[1]['Text'];
+					echo('<pre>' . $data . '</pre>');
+				?>
                 <div id="text">
                     <p><img class="img-responsive alignright" src="upload/visie_floortje.jpg" alt="Visie" width="300" height="237"></p>
 					<p>Daarmee bedoelen wij dat wij uw paarden kunnen onderhouden op de manier die U wenst. Wij zijn flexibel om dat gene te doen dat u van ons verlangt voor uw paard.</p>

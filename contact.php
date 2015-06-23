@@ -65,14 +65,11 @@
 				<div class="page-header">
 					<h1>Contact</h1>
 				</div>
-					<?php
-					$data = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.CONTACT.1');
-					$json = json_decode($data, 1);
-					$test = $json[1]["Text"];
-					echo '<pre>';
-					echo ($test);
-					echo '</pre>'
-					?>
+				<?php
+					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.CONTACT.1');
+					$data = json_decode($json, 1)[1]['Text'];
+					echo('<pre>' . $data . '</pre>');
+				?>
 				<p><img class="img-responsive alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
 				<p>S.R. Wobbes</p>
 				<p>Hoofdstraat 216<br> 9828 PD Oostwold (gem Leek, Gr.)<br> Tel: 050-5515623<br> Mob: 06-15596766</p>
