@@ -53,12 +53,8 @@ header[role="banner"] #logo-main {
 	background-color: transparent;
 }
 
-.navbar-header > a.navbar-brand {
+.navbar-header > a.navbar-brand, .navbar-header > a.navbar-brand:hover, .navbar-header > a.navbar-brand:focus {
 	color:inherit;
-}
-
-.navbar-header > a.navbar-brand:focus {
-	color: inherit;
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
