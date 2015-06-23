@@ -1,3 +1,11 @@
+# Website gemaakt door:
+# * Kevin van Rijn
+# * Klaasjan
+# * Reinder
+# * TJ
+# * Wesley Rorije
+# Het verschrikkelijke CMS is niet onze schuld...
+
 User-agent: *
 Disallow:
 
