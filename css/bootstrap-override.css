@@ -100,6 +100,7 @@ header[role="banner"] #logo-main {
 #myCarousel {
 	margin-left: -20px;
 	margin-right: -20px;
+	margin-bottom: -20px;
 }
 
 .carousel-inner > .item > .carousel-caption > h3,
