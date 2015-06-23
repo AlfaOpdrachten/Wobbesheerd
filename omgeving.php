@@ -69,7 +69,7 @@
 				<?php
 					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.OMGEVING.1');
 					$data = json_decode($json, 1)[1]['Text'];
-					echo('<pre>' . $data . '</pre>');
+					echo($data);
 				?>
 				<p>Groningen staat bekend om zijn vele groene streken, zo ook Wobbesheerd. Vanuit Wobbesheerd kunt u vele buitenritten maken met uw paard.</p>
 				<p>Wobbesheerd ligt op 10 minuten afstand van Landgoed Nienoord.</p>

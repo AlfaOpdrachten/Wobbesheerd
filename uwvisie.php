@@ -69,7 +69,7 @@
 				<?php
 					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.VISIE.1');
 					$data = json_decode($json, 1)[1]['Text'];
-					echo('<pre>' . $data . '</pre>');
+					echo($data);
 				?>
                 <div id="text">
                     <p><img class="img-responsive alignright" src="upload/visie_floortje.jpg" alt="Visie" width="300" height="237"></p>
