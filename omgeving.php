@@ -1,3 +1,4 @@
+<?php include('inc/settings.inc.php'); ?>
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
