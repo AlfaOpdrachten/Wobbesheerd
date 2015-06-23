@@ -7,5 +7,5 @@
 # Het verschrikkelijke CMS is niet onze schuld...
 
 User-agent: *
-Disallow:
+Disallow: 
 
