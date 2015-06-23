@@ -65,6 +65,11 @@
 				<div class="page-header">
 					<h1>Faciliteiten</h1>
 				</div>
+				<?php
+					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.FACILITEITEN.1');
+					$data = json_decode($json, 1)[1]['Text'];
+					echo('<pre>' . $data . '</pre>');
+				?>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
