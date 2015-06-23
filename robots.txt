@@ -1,8 +1,8 @@
 # Website gemaakt door:
 # * Kevin van Rijn
-# * Klaasjan
-# * Reinder
-# * TJ
+# * Klaas Jan Oosterveld
+# * Reinder Hijlkema
+# * Travelingtonj Thomascilio Provence
 # * Wesley Rorije
 # Het verschrikkelijke CMS is niet onze schuld...
 
