@@ -68,8 +68,9 @@
 				</div>
 				<?php
 					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.CONTACT.1');
-					$data = json_decode($json, 1)[1]['Text'];
-					echo($data);
+					$data = json_decode($json, 1);
+					$text = $data[1]['Text'];
+					echo($text);
 				?>
 				<p><img class="img-responsive alignright" src="upload/contact.jpg" alt="Contact" width="300" height="199"></p>
 				<p>S.R. Wobbes</p>

@@ -68,8 +68,9 @@
 				</div>
 				<?php
 					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.HOME.1');
-					$data = json_decode($json, 1)[1]['Text'];
-					echo($data);
+					$data = json_decode($json, 1);
+					$text = $data[1]['Text'];
+					echo($text);
 				?>
 				<p>Wij heten u van harte welkom op <strong>paardenstalling "Wobbesheerd"</strong>.</p>
 				<p>Als u op zoek bent naar rust, ruimte en professionele verzorging / stalling voor uw pony/paard(en), dan zijn wij de plek voor u.</p>
