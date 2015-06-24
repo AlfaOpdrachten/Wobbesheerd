@@ -72,7 +72,7 @@
 					$text = $data[1]['Text'];
 					echo($text);
 				?>
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">>
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -216,10 +216,5 @@
 		</div><!-- /.container -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script>
-			$('.carousel').carousel({
-				interval: 10000
-			});
-		</script>  
 	</body>
 </html>
