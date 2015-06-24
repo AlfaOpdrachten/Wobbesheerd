@@ -216,5 +216,10 @@
 		</div><!-- /.container -->
 		<script src="js/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$('.carousel').carousel({
+				interval: 10000
+			});
+		</script>  
 	</body>
 </html>
