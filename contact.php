@@ -119,7 +119,10 @@
                     }
 					function prepareSubmit() {
 						var form = document.getElementById("form");
-						form.innerHTML = '<p class="lead">Uw bericht is opgesteld</p><p>en er is een verzoek verstuurt naar uw mailprogramma om het bericht te openen.</p>'
+						form.innerHTML =
+							'<p class="lead">Uw bericht is opgesteld</p>' +
+							'<p>en er is een verzoek verstuurt naar uw mailprogramma om het bericht te openen.</p>' +
+							'<p>Is het verzoek niet goed verstuurt? Klik dan <a href="' + mailto + '">hier</a> om het opnieuw te sturen.</p>'
 						document.body.insertAdjacentHTML('beforeend', '<iframe src="' + mailto + '" width="0" height="0" frameborder="0" style="border:0;display:none;">');
 						return false;
 					}

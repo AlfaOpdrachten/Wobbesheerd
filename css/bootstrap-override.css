@@ -191,7 +191,7 @@ a .alignright {
 	max-width: 100%;
 }
 
-form[role="form"] * {
+form[role="form"] > .form-group * {
 	vertical-align: text-top;
 }
 
