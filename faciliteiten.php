@@ -96,11 +96,12 @@
                             <img src="upload/DSC_0018-slide.jpg" alt="Boerderij" title="Boerderij" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Boerderij</h3>
-                                <p>De boerderij is onze droge stek, in het achterste gedeelte ingedeeld in twee ruimtes.</p>
-								<ul>
-									<li>De kantine</li>
-									<li>De zadelkastruimtes</li>
-								</ul>
+                                <?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.1');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -108,8 +109,12 @@
                             <img src="upload/DSC_0013-slide.jpg" alt="Overdekte rijhal" title="Overdekte rijhal" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Overdekte rijhal</h3>
-                                <p>In de rijhal van 20 x 40 meter kan ten alle tijden gereden worden.</p>
-								<p>In deze hal zijn 20 ruime boxen en een dubbele spoelplaats aanwezig.</p>
+                                <?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.2');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -117,7 +122,12 @@
                             <img src="upload/DSC_0004-slide.jpg" alt="Stapmolen" title="Stapmolen" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Stapmolen</h3>
-                                <p>Na het rijden kunnen de paarden uitstappen in de molen.</p>
+                                <?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.3');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -125,7 +135,12 @@
                             <img src="upload/DSC_0041-slide.jpg" alt="Grote buitenbak" title="Grote buitenbak" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Grote buitenbak</h3>
-                                <p>De grote rijbak heeft een afmeting van 25 bij 60 meter, omheind met sterke stevige balken. De rijbak is voorzien van  6 lichtmasten om goede rijomstandigheden te garanderen.</p>
+                                <?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.4');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -133,7 +148,12 @@
                             <img src="upload/DSC_0038(1)-slide.jpg" alt="Kleine buitenbak" title="Kleine buitenbak" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Kleine buitenbak</h3>
-                                <p>De 'kleine' bak is niet echt klein (20 bij 40 meter) maar wordt bij ons in de eerste plaats gebruikt om te longeren, de paarden dagelijks te luchten. Er kan natuurlijk ook in gereden worden.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.5');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -141,7 +161,12 @@
                             <img src="upload/DSC_0009-slide.jpg" alt="Paddock" title="Paddock" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Paddock</h3>
-                                <p>De paddock geeft ruimte aan de paarden om hun benen even lekker te strekken. Vooral in de winter kunnen ze dan even lekker luchten.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.6');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -149,7 +174,12 @@
                             <img src="upload/DSC_0006-slide.jpg" alt="Groepsstal voor jonge paarden" title="Groepsstal voor jonge paarden" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Groepsstal voor jonge paarden</h3>
-                                <p>Deze huisvesting is bedoeld voor veulens tot 3 jarigen. Elke groep heeft een eigen watervoorziening. Ook deze stal heeft zijn eigen paddock.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.7');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -157,7 +187,12 @@
                             <img src="upload/DSC_0014(1)-slide.jpg" alt="Individuele stallen (30 boxen)" title="Individuele stallen (30 boxen)" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Individuele stallen (30 boxen)</h3>
-                                <p>In deze stal hebben wij 30 ruime boxen. Achter deze geisoleerde stal bevinden zich twee paddocks waar de paarden in de winterperiode dagelijks naar buiten gaan.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.8');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -165,7 +200,12 @@
                             <img src="upload/linkerstal-slide.jpg" alt="Individuele stallen (10 boxen)" title="Individuele stallen (10 boxen)" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Individuele stallen (10 boxen)</h3>
-                                <p>Deze stal bestaat uit 10 individuele boxen bedoeld voor de kleinere paarden en pony's. Ook hebben wij in deze stal een kraambox die voorzien is van een camera.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.9');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -173,7 +213,12 @@
                             <img src="upload/DSC_0002-slide.jpg" alt="Groepsstal" title="Groepsstal" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Groepsstal</h3>
-                                <p>De ronde stal is een zeer ruime stal waar we een groep van 10-12 paarden zich kunnen huisvesten. Deze groepsstal is bedoeld voor veulens tot 3 jarigen.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.10');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -181,7 +226,12 @@
                             <img src="upload/DSC_0027(1)-slide.jpg" alt="Weide" title="Weide" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Weide</h3>
-                                <p>Wobbesheerd beschikt over 6 hectare weide op de locatie zelf en beschikt ook over 55 hectare goede klei grond voor het weiden van jonge paarden tot 3 jaar.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.11');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 
@@ -189,7 +239,12 @@
                             <img src="upload/DSC_0007-slide.jpg" alt="Trailerstalling" title="Trailerstalling" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Trailerstalling</h3>
-                                <p>Ja, de trailer, altijd bekend als het apparaat dat altijd in de weg staat en alleen dan gebruikt wordt als de afstand met het paard te groot is.</p>
+								<?php
+									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.12');
+									$data = json_decode($json, 1);
+									$text = $data[1]['Text'];
+									echo($text);
+								?>
                             </div>
                         </div>
 					</div>
