@@ -132,7 +132,7 @@ header[role="banner"] #logo-main {
 	width: 70%;
 	height: auto !important;
 	min-height: 236px;
-	margin: auto;
+	margin: auto !important;
 	border: 0;
 }
 
