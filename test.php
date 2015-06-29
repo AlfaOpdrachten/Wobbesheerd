@@ -42,7 +42,7 @@ if(isset($_POST['versturen']))
 </form>
 <?php
 if($test){
-echo $test;
+    echo $test;
 }
 ?>
 </body>
