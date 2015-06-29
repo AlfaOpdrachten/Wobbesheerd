@@ -2,7 +2,7 @@
 error_reporting(0); 
 
 // Generate mail
-$message = $_POST['bericht'] . '\r\n\r\nNaam: ' . $_POST['naam'] . '\r\nE-mailadres: ' . $_POST['email'] . ( isset($_POST['nummer']) ? '\r\nTelefoon nummer: ' . $_POST['nummer'] : '');
+$message = $_POST['bericht'] . chr(13).chr(10) . 'Naam: ' . $_POST['naam'] . chr(13).chr(10) . 'E-mailadres: ' . $_POST['email'] . ( isset($_POST['nummer']) ? chr(13).chr(10) . 'Telefoon nummer: ' . $_POST['nummer'] : '');
 $headers = 'From:' . $_POST['email'];
 $headers2 = 'From:' . 'reinderh@gmail.com';
 
