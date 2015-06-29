@@ -1,2 +1,2 @@
 # Wobbesheerd
-Wobbesheerd de paardestalling site.
+Wobbesheerd de paardenstalling site.
