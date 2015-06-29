@@ -72,6 +72,7 @@
 					$text = $data[1]['Text'];
 					echo($text);
 				?>
+				<noscript><p>U heeft javascript nodig om de slideshow te kunnen gebruiken.</p></noscript>
                 <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
