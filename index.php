@@ -1,4 +1,4 @@
-<?php include('inc/settings.inc.php'); ?>
+<?php error_reporting(0); ?>
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
