@@ -93,7 +93,7 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="upload/DSC_0018-slide.jpg" alt="Boerderij" title="Boerderij" width="630" height="419">
+                            <img src="/upload/DSC_0018-slide.jpg" alt="Boerderij" title="Boerderij" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Boerderij</h3>
                                 <?php
@@ -106,7 +106,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0013-slide.jpg" alt="Overdekte rijhal" title="Overdekte rijhal" width="630" height="419">
+                            <img src="/upload/DSC_0013-slide.jpg" alt="Overdekte rijhal" title="Overdekte rijhal" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Overdekte rijhal</h3>
                                 <?php
@@ -119,7 +119,7 @@
                         </div>
 
 						<div class="item">
-                            <img src="upload/DSC_0004-slide.jpg" alt="Stapmolen" title="Stapmolen" width="630" height="419">
+                            <img src="/upload/DSC_0004-slide.jpg" alt="Stapmolen" title="Stapmolen" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Stapmolen</h3>
                                 <?php
@@ -132,7 +132,7 @@
                         </div>
 
 						<div class="item">
-                            <img src="upload/DSC_0041-slide.jpg" alt="Grote buitenbak" title="Grote buitenbak" width="630" height="419">
+                            <img src="/upload/DSC_0041-slide.jpg" alt="Grote buitenbak" title="Grote buitenbak" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Grote buitenbak</h3>
                                 <?php
@@ -145,7 +145,7 @@
                         </div>
 
 						<div class="item">
-                            <img src="upload/DSC_0038(1)-slide.jpg" alt="Kleine buitenbak" title="Kleine buitenbak" width="630" height="419">
+                            <img src="/upload/DSC_0038(1)-slide.jpg" alt="Kleine buitenbak" title="Kleine buitenbak" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Kleine buitenbak</h3>
 								<?php
@@ -158,7 +158,7 @@
                         </div>
 
 						<div class="item">
-                            <img src="upload/DSC_0009-slide.jpg" alt="Paddock" title="Paddock" width="630" height="419">
+                            <img src="/upload/DSC_0009-slide.jpg" alt="Paddock" title="Paddock" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Paddock</h3>
 								<?php
@@ -171,7 +171,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0006-slide.jpg" alt="Groepsstal voor jonge paarden" title="Groepsstal voor jonge paarden" width="630" height="419">
+                            <img src="/upload/DSC_0006-slide.jpg" alt="Groepsstal voor jonge paarden" title="Groepsstal voor jonge paarden" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Groepsstal voor jonge paarden</h3>
 								<?php
@@ -184,7 +184,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0014(1)-slide.jpg" alt="Individuele stallen (30 boxen)" title="Individuele stallen (30 boxen)" width="630" height="419">
+                            <img src="/upload/DSC_0014(1)-slide.jpg" alt="Individuele stallen (30 boxen)" title="Individuele stallen (30 boxen)" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Individuele stallen (30 boxen)</h3>
 								<?php
@@ -197,7 +197,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/linkerstal-slide.jpg" alt="Individuele stallen (10 boxen)" title="Individuele stallen (10 boxen)" width="630" height="419">
+                            <img src="/upload/linkerstal-slide.jpg" alt="Individuele stallen (10 boxen)" title="Individuele stallen (10 boxen)" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Individuele stallen (10 boxen)</h3>
 								<?php
@@ -210,7 +210,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0002-slide.jpg" alt="Groepsstal" title="Groepsstal" width="630" height="419">
+                            <img src="/upload/DSC_0002-slide.jpg" alt="Groepsstal" title="Groepsstal" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Groepsstal</h3>
 								<?php
@@ -223,7 +223,7 @@
                         </div>
 
 						<div class="item">
-                            <img src="upload/DSC_0027(1)-slide.jpg" alt="Weide" title="Weide" width="630" height="419">
+                            <img src="/upload/DSC_0027(1)-slide.jpg" alt="Weide" title="Weide" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Weide</h3>
 								<?php
@@ -236,7 +236,7 @@
                         </div>
 
                         <div class="item">
-                            <img src="upload/DSC_0007-slide.jpg" alt="Trailerstalling" title="Trailerstalling" width="630" height="419">
+                            <img src="/upload/DSC_0007-slide.jpg" alt="Trailerstalling" title="Trailerstalling" width="630" height="419">
                             <div class="carousel-caption">
                                 <h3>Trailerstalling</h3>
 								<?php
@@ -250,11 +250,11 @@
 					</div>
 
                     <!-- Left and right controls -->
-                    <a class="left carousel-control" href="/#myCarousel" role="button" data-slide="prev">
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="/#myCarousel" role="button" data-slide="next">
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
