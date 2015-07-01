@@ -210,7 +210,7 @@ else {
 									'</div>' +
 									'<div class="form-group">' +
 										'<div class="col-sm-offset-2 col-sm-10">' +
-											'<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>' +
+											'<button type="submit" id="submit" class="btn btn-default">Bericht opstellen</button>' +
 										'</div>' +
 									'</div>' +
 								'</form>';
