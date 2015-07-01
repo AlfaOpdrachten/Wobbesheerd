@@ -1,4 +1,22 @@
-<?php error_reporting(0); ?>
+<?php
+error_reporting(-1); 
+
+if(is_array($_POST) && !empty($_POST)) {
+	// Generate mail
+	$message = $_POST['bericht'] . chr(13).chr(10).chr(13).chr(10) . 'Naam: ' . $_POST['naam'] . chr(13).chr(10) . 'E-mailadres: ' . $_POST['email'] . ( isset($_POST['nummer']) ? chr(13).chr(10) . 'Telefoon nummer: ' . $_POST['nummer'] : '');
+	$headers = 'From:' . $_POST['email'];
+	$headers2 = 'From:kevin-van-rijn@hotmail.nl';
+
+	// Send mail
+	mail('kevin-van-rijn@hotmail.nl','Contact via wobbesheerd.nl',$message,$headers);
+	mail($_POST['email'],'Kopie van "Contact via wobbesheerd.nl"',$message,$headers2); // sends a copy of the message to the sender
+
+	$sent = true;
+}
+else {
+	$sent = false;
+}
+?>
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
@@ -71,52 +89,147 @@
 					$data = json_decode($json, 1);
 					$text = $data[1]['Text'];
 					echo($text);
-				?>
-				<div id="contact"><noscript>
-					<p><a href="/&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x69;&#x6e;&#x66;&#x6f;&#64;&#x77;&#x6f;&#98;&#98;&#x65;&#x73;&#x68;&#x65;&#x65;&#x72;&#x64;&#46;&#x6e;&#x6c;">Neem contact op.</a></p>
-				</noscript><script>
-					document.getElementById("contact").innerHTML =
-						'<form id="form" class="form-horizontal" role="form" action="javascript:void(0);" method="post" onsubmit="prepareSubmit()">' +
-							'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
-							'<p class="text-info small">Zeer lange berichten kunnen problemen in uw browser veroorzaken.</p>' +
-							'<div class="form-group">' +
-								'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
-								'<div class="col-sm-10">' +
-									'<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam" required>' +
-									'<span class="text-danger"> *</span>' +
-								'</div>' +
-							'</div>' +
-							'<div class="form-group">' +
-								'<label class="control-label col-sm-2" for="email">E-mail adres:</label>' +
-								'<div class="col-sm-10">' +
-									'<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl" required>' +
-									'<span class="text-danger"> *</span>' +
-								'</div>' +
-							'</div>' +
-							'<div class="form-group">' +
-								'<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>' +
-								'<div class="col-sm-10">' +
-									'<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">' +
-								'</div>' +
-							'</div>' +
-							'<div class="form-group">' +
-								'<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>' +
-								'<div class="col-sm-10">' +
-									'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>' +
-									'<span class="text-danger"> *</span>' +
-								'</div>' +
-							'</div>' +
-							'<div class="form-group">' +
-								'<div class="col-sm-offset-2 col-sm-10">' +
-									'<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>' +
-								'</div>' +
-							'</div>' +
-						'</form>';
-				</script></div>
+
+					if ($sent) {
+						echo('<div id="contact"><p class="lead">Uw bericht is verzonden.</p><p>We zullen zo spoedig mogelijk contact met u opnemen.</p></div>');
+					}
+					else { 
+						echo(<<<'NOW'
+				<div id="contact">
+					<form id="form" class="form-horizontal" role="form" method="post">
+						<script>document.write('<p class="floatright"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>');</script>
+						<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="naam">Naam:</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam" required>
+								<span class="text-danger"> *</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="email">E-mail adres:</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl" required>
+								<span class="text-danger"> *</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>
+							<div class="col-sm-10">
+								<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">
+							</div>
+						</div>
+						<div class="form-group">
+							<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>
+								<span class="text-danger"> *</span>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>
+							</div>
+						</div>
+					</form>
+				</div>
 				<script>
+					function toggleForm() {
+						if (state) {
+							document.getElementById("contact").innerHTML = 
+							'<form id="form" class="form-horizontal" role="form" method="post">' +
+								'<p class="floatright"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>' +
+								'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
+								'<div class="form-group">' +
+									'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
+									'<div class="col-sm-10">' +
+										'<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam" required>' +
+										'<span class="text-danger"> *</span>' +
+									'</div>' +
+								'</div>' +
+								'<div class="form-group">' +
+									'<label class="control-label col-sm-2" for="email">E-mail adres:</label>' +
+									'<div class="col-sm-10">' +
+										'<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl" required>' +
+										'<span class="text-danger"> *</span>' +
+									'</div>' +
+								'</div>' +
+								'<div class="form-group">' +
+									'<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>' +
+									'<div class="col-sm-10">' +
+										'<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">' +
+									'</div>' +
+								'</div>' +
+								'<div class="form-group">' +
+									'<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>' +
+									'<div class="col-sm-10">' +
+										'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>' +
+										'<span class="text-danger"> *</span>' +
+									'</div>' +
+								'</div>' +
+								'<div class="form-group">' +
+									'<div class="col-sm-offset-2 col-sm-10">' +
+										'<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>' +
+									'</div>' +
+								'</div>' +
+							'</form>'
+
+							state = false;
+						}
+						else {
+							document.getElementById("contact").innerHTML = 
+								'<form id="form" class="form-horizontal" role="form" action="javascript:void(0);" method="post" onsubmit="prepareSubmit()">' +
+									'<p class="floatright"><a href="javascript:toggleForm();">Automatisch een bericht versturen.</a></p>' +
+									'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
+									'<p class="text-info small">Zeer lange berichten kunnen problemen in uw browser veroorzaken.</p>' +
+									'<div class="form-group">' +
+										'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
+										'<div class="col-sm-10">' +
+											'<input type="text" class="form-control" id="naam" name="naam" placeholder="Naam" required>' +
+											'<span class="text-danger"> *</span>' +
+										'</div>' +
+									'</div>' +
+									'<div class="form-group">' +
+										'<label class="control-label col-sm-2" for="email">E-mail adres:</label>' +
+										'<div class="col-sm-10">' +
+											'<input type="email" class="form-control" id="email" name="email" placeholder="voorbeeld@mail.nl" required>' +
+											'<span class="text-danger"> *</span>' +
+										'</div>' +
+									'</div>' +
+									'<div class="form-group">' +
+										'<label class="control-label col-sm-2" for="nummer">Telefoon nummer:</label>' +
+										'<div class="col-sm-10">' +
+											'<input type="tel" class="form-control" id="nummer" name="nummer" placeholder="0612345678">' +
+										'</div>' +
+									'</div>' +
+									'<div class="form-group">' +
+										'<label class="control-label col-sm-2" for="bericht">Uw bericht:</label>' +
+										'<div class="col-sm-10">' +
+											'<textarea class="form-control" rows="5" id="bericht" name="bericht" placeholder="Typ hier uw bericht." required></textarea>' +
+											'<span class="text-danger"> *</span>' +
+										'</div>' +
+									'</div>' +
+									'<div class="form-group">' +
+										'<div class="col-sm-offset-2 col-sm-10">' +
+											'<button type="submit" id="submit" class="btn btn-default">Verstuur bericht</button>' +
+										'</div>' +
+									'</div>' +
+								'</form>';
+
+							var mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20";
+							var naam = document.getElementById("naam");
+							var email = document.getElementById("email");
+							var nummer = document.getElementById("nummer");
+							var bericht = document.getElementById("bericht");
+							var submit = document.getElementById("submit");
+							naam.onkeyup = email.onkeyup = nummer.onkeyup = bericht.onkeyup = eventHandler;
+
+							state = true;
+						}
+					}
 					function eventHandler() {
-                        mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + ((nummer.value == "") ? "" : "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase()));
-                    }
+						mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=" + encodeURIComponent(email.value.toLowerCase()) + "&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=" + encodeURIComponent(bericht.value) + "%0D%0A%0D%0ANaam:%20" + encodeURIComponent(naam.value) + "%0D%0AE-mailadres:%20" + encodeURIComponent(email.value.toLowerCase()) + ((nummer.value == "") ? "" : "%0D%0ATelefoon%20nummer:%20" + encodeURIComponent(nummer.value.toUpperCase()));
+					}
 					function prepareSubmit() {
 						var form = document.getElementById("form");
 						form.innerHTML =
@@ -127,15 +240,12 @@
 						return false;
 					}
 
-					var mailto = "mailto:%69%6E%66%6F%40%77%6F%62%62%65%73%68%65%65%72%64%2E%6E%6C?FROM=&SUBJECT=Contact%20via%20wobbesheerd.nl&BODY=%0D%0A%0D%0ANaam:%20%0D%0AE-mailadres:%20";
-
-					var naam = document.getElementById("naam");
-					var email = document.getElementById("email");
-					var nummer = document.getElementById("nummer");
-					var bericht = document.getElementById("bericht");
-					var submit = document.getElementById("submit");
-					naam.onkeyup = email.onkeyup = nummer.onkeyup = bericht.onkeyup = eventHandler;
+					var state = false;
 				</script>
+NOW
+);
+				}
+				?>
 			</div><!-- /.page-content -->
 			<footer class="footer">
 				<address>

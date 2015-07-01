@@ -81,6 +81,11 @@ header[role="banner"] #logo-main {
 	margin-bottom: 10px;
 }
 
+.floatright {
+	float: right;
+	margin: 0;
+}
+
 .page-content img {
 	border: 1px solid #234729;
 	display: inline-block;
