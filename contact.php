@@ -97,7 +97,7 @@ else {
 				<div id="contact">
 					<form id="form" class="form-horizontal" role="form" method="post">
 						<script>document.write('<p class="right"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>');</script>
-						<h3>Een email bericht versturen</h3>
+						<h3>Een e-mailbericht versturen</h3>
 						<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
 						<div class="form-group">
 							<label class="control-label col-sm-2" for="naam">Naam:</label>
@@ -139,7 +139,7 @@ else {
 							document.getElementById("contact").innerHTML = 
 							'<form id="form" class="form-horizontal" role="form" method="post">' +
 								'<p class="right"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>' +
-								'<h3>Een email bericht versturen</h3>' +
+								'<h3>Een e-mailbericht versturen</h3>' +
 								'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 								'<div class="form-group">' +
 									'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
@@ -181,7 +181,7 @@ else {
 							document.getElementById("contact").innerHTML = 
 								'<form id="form" class="form-horizontal" role="form" action="javascript:void(0);" method="post" onsubmit="prepareSubmit()">' +
 									'<p class="right"><a href="javascript:toggleForm();">Automatisch een bericht versturen.</a></p>' +
-									'<h3>Een email bericht opstellen</h3>' +
+									'<h3>Een e-mailbericht opstellen</h3>' +
 									'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 									'<p class="text-info small">Zeer lange berichten kunnen problemen in uw browser veroorzaken.</p>' +
 									'<div class="form-group">' +
