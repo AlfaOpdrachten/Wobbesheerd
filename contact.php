@@ -94,7 +94,7 @@ else {
 						echo('<div id="contact"><p class="lead">Uw bericht is verzonden.</p><p>We zullen zo spoedig mogelijk contact met u opnemen.</p></div>');
 					}
 					else { 
-						echo(<<<'NOW'
+						echo(<<<'FORM'
 				<div id="contact">
 					<form id="form" class="form-horizontal" role="form" method="post">
 						<script>document.write('<p class="right"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>');</script>
@@ -242,7 +242,7 @@ else {
 
 					var state = false;
 				</script>
-NOW
+FORM
 );
 				}
 				?>
