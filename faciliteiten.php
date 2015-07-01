@@ -1,4 +1,9 @@
-<?php error_reporting(0); ?>
+<?php
+error_reporting(0);
+
+$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.%');
+$data = json_decode($json, 1);
+?>
 <!DOCTYPE html>
 <html lang="nl">
 	<head>
@@ -67,9 +72,7 @@
 					<h1>Faciliteiten</h1>
 				</div>
 				<?php
-					$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.FACILITEITEN.1');
-					$data = json_decode($json, 1);
-					$text = $data[1]['Text'];
+					$text = $data[6]['Text'];
 					echo($text);
 				?>
 				<noscript><p>U heeft javascript nodig om de slideshow te kunnen gebruiken.</p></noscript>
@@ -97,9 +100,7 @@
                             <div class="carousel-caption">
                                 <h3>Boerderij</h3>
                                 <?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.1');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[7]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -110,9 +111,7 @@
                             <div class="carousel-caption">
                                 <h3>Overdekte rijhal</h3>
                                 <?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.2');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[8]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -123,9 +122,7 @@
                             <div class="carousel-caption">
                                 <h3>Stapmolen</h3>
                                 <?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.3');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[9]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -136,9 +133,7 @@
                             <div class="carousel-caption">
                                 <h3>Grote buitenbak</h3>
                                 <?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.4');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[10]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -149,9 +144,7 @@
                             <div class="carousel-caption">
                                 <h3>Kleine buitenbak</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.5');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[11]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -162,9 +155,7 @@
                             <div class="carousel-caption">
                                 <h3>Paddock</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.6');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[12]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -175,9 +166,7 @@
                             <div class="carousel-caption">
                                 <h3>Groepsstal voor jonge paarden</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.7');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[13]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -188,9 +177,7 @@
                             <div class="carousel-caption">
                                 <h3>Individuele stallen (30 boxen)</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.8');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[14]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -201,9 +188,7 @@
                             <div class="carousel-caption">
                                 <h3>Individuele stallen (10 boxen)</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.9');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[15]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -214,9 +199,7 @@
                             <div class="carousel-caption">
                                 <h3>Groepsstal</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.10');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[16]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -227,9 +210,7 @@
                             <div class="carousel-caption">
                                 <h3>Weide</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.11');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[17]['Text'];
 									echo($text);
 								?>
                             </div>
@@ -240,9 +221,7 @@
                             <div class="carousel-caption">
                                 <h3>Trailerstalling</h3>
 								<?php
-									$json = file_get_contents('http://www.caferestauranthetwittepaard.nl/CMS/text/?location=WH.SLIDE.12');
-									$data = json_decode($json, 1);
-									$text = $data[1]['Text'];
+									$text = $data[18]['Text'];
 									echo($text);
 								?>
                             </div>
