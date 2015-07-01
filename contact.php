@@ -5,10 +5,10 @@ if(is_array($_POST) && !empty($_POST)) {
 	// Generate mail
 	$message = $_POST['bericht'] . chr(13).chr(10).chr(13).chr(10) . 'Naam: ' . $_POST['naam'] . chr(13).chr(10) . 'E-mailadres: ' . $_POST['email'] . ( isset($_POST['nummer']) ? chr(13).chr(10) . 'Telefoon nummer: ' . $_POST['nummer'] : '');
 	$headers = 'From:' . $_POST['email'];
-	$headers2 = 'From:kevin-van-rijn@hotmail.nl';
+	$headers2 = 'From:info@wobbesheerd.nl';
 
 	// Send mail
-	mail('kevin-van-rijn@hotmail.nl','Contact via wobbesheerd.nl',$message,$headers);
+	mail('info@wobbesheerd.nl','Contact via wobbesheerd.nl',$message,$headers);
 	mail($_POST['email'],'Kopie van "Contact via wobbesheerd.nl"',$message,$headers2); // sends a copy of the message to the sender
 
 	$sent = true;
