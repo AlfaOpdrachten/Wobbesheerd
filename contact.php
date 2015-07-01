@@ -97,7 +97,7 @@ else {
 						echo(<<<'NOW'
 				<div id="contact">
 					<form id="form" class="form-horizontal" role="form" method="post">
-						<script>document.write('<p class="floatright"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>');</script>
+						<script>document.write('<p class="right"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>');</script>
 						<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>
 						<div class="form-group">
 							<label class="control-label col-sm-2" for="naam">Naam:</label>
@@ -138,7 +138,7 @@ else {
 						if (state) {
 							document.getElementById("contact").innerHTML = 
 							'<form id="form" class="form-horizontal" role="form" method="post">' +
-								'<p class="floatright"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>' +
+								'<p class="right"><a href="javascript:toggleForm();">Zelf een bericht opstellen.</a></p>' +
 								'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 								'<div class="form-group">' +
 									'<label class="control-label col-sm-2" for="naam">Naam:</label>' +
@@ -179,7 +179,7 @@ else {
 						else {
 							document.getElementById("contact").innerHTML = 
 								'<form id="form" class="form-horizontal" role="form" action="javascript:void(0);" method="post" onsubmit="prepareSubmit()">' +
-									'<p class="floatright"><a href="javascript:toggleForm();">Automatisch een bericht versturen.</a></p>' +
+									'<p class="right"><a href="javascript:toggleForm();">Automatisch een bericht versturen.</a></p>' +
 									'<p class="text-danger"><span class="small">Velden met</span> * <span class="small">zijn verplicht.</span></p>' +
 									'<p class="text-info small">Zeer lange berichten kunnen problemen in uw browser veroorzaken.</p>' +
 									'<div class="form-group">' +

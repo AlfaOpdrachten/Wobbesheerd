@@ -81,9 +81,14 @@ header[role="banner"] #logo-main {
 	margin-bottom: 10px;
 }
 
-.floatright {
-	float: right;
-	margin: 0;
+.right {
+	text-align: right;
+}
+
+@media (max-width: 900px) {
+	.right {
+		text-align: inherit;
+	}
 }
 
 .page-content img {
