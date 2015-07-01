@@ -1,5 +1,5 @@
 <?php
-error_reporting(0); 
+error_reporting(0);
 
 if(is_array($_POST) && !empty($_POST)) {
 	// Generate mail
