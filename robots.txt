@@ -5,7 +5,6 @@
 # * Travelingtonj Thomascilio Provence
 # * Wesley Rorije
 # Het verschrikkelijke CMS is niet onze schuld...
-
 User-agent: *
 Disallow: 
 
