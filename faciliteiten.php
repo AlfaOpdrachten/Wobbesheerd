@@ -31,7 +31,6 @@ $data = json_decode($json, 1);
 <link rel="icon" type="image/png" href="/favicon-96x96.png?v=rMw5aORP9o" sizes="96x96">
 <link rel="icon" type="image/png" href="/favicon-16x16.png?v=rMw5aORP9o" sizes="16x16">
 <link rel="manifest" href="/manifest.json?v=rMw5aORP9o">
-<link rel="shortcut icon" href="/favicon.ico?v=rMw5aORP9o">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-TileImage" content="mstile-144x144.png?v=rMw5aORP9o">
 <meta name="theme-color" content="#ffffff">
