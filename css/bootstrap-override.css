@@ -101,6 +101,9 @@ margin-left: -20px;
 margin-right: -20px;
 margin-bottom: -20px;
 }
+carousel-inner {
+height: 419px;
+}
 .carousel-inner > .item > .carousel-caption > h3,
 .carousel-inner > .item > .carousel-caption > a > h3,
 .carousel-inner > .item > .carousel-caption > p,
