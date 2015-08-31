@@ -1,4 +1,7 @@
 DirectoryIndex index.php
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^wobbesheerd.com$
+RewriteRule (.*) http://www.wobbesheerd.com/$1 [R=301,L] 
 ErrorDocument 403 /errordocs/403.htm
 ErrorDocument 404 /errordocs/404.htm
 ErrorDocument 500 /errordocs/500.htm
