@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+header("Content-Type: text/html; charset=utf-8");
 if(is_array($_POST) && !empty($_POST)) {
 // Generate mail
 $message = $_POST['bericht'] . chr(13).chr(10).chr(13).chr(10) . 'Naam: ' . $_POST['naam'] . chr(13).chr(10) . 'E-mailadres: ' . $_POST['email'] . ( isset($_POST['nummer']) ? chr(13).chr(10) . 'Telefoon nummer: ' . $_POST['nummer'] : '');
@@ -16,7 +17,6 @@ $sent = false;
 <!DOCTYPE html>
 <html lang="nl">
 <head>
-<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact :: Wobbesheerd</title>
