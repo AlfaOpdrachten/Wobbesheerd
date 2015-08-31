@@ -22,4 +22,3 @@ Redirect 301 /id/22-Overdekte-rijhal/ /faciliteiten.php
 Redirect 301 /id/23-Omgeving/ /omgeving.php
 Redirect 301 /id/24-Stapmolen/ /faciliteiten.php
 Options -Indexes
-AddHandler application/x-httpd-php .html
