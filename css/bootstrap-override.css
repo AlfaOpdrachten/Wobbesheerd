@@ -48,13 +48,13 @@ background-color: transparent;
 color:inherit;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-background-color: #eee;
+background-color: #999;
 }
 .navbar-default .navbar-toggle {
 border-color: #eee;
 }
 .navbar-default .navbar-toggle .icon-bar {
-background-color: #999;
+background-color: #eee;
 }
 .page-header {
 margin-top: 0;
