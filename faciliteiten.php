@@ -13,8 +13,8 @@ $data = json_decode($json, 1);
 <link href="/css/bootstrap.min.css" rel="stylesheet">
 <link href="/css/bootstrap-override.css" rel="stylesheet">
 <!--[if lt IE 9]>
-<script src="js/html5shiv.min.js"></script>
-<script src="js/respond.min.js"></script>
+<script src="/js/html5shiv.min.js"></script>
+<script src="/js/respond.min.js"></script>
 <style>.container{max-width: 900px;}</style>
 <![endif]-->
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png?0">
@@ -38,7 +38,7 @@ $data = json_decode($json, 1);
 <body>
 <div class="container">
 <header role="banner">
-<img id="logo-main" src="img/header.jpg" width="900" height="201" title="Paardenstalling Wobbesheerd Oostwold" alt="Paardenstalling Wobbesheerd Oostwold">
+<img id="logo-main" src="/img/header.jpg" width="900" height="201" title="Paardenstalling Wobbesheerd Oostwold" alt="Paardenstalling Wobbesheerd Oostwold">
 <nav id="navbar-primary" class="navbar navbar-default">
 <div class="container-fluid">
 <!-- Brand and toggle get grouped for better mobile display -->
@@ -233,8 +233,8 @@ Email: <span class="email"><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x6
 </address>	
 </footer>
 </div><!-- /.container -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
